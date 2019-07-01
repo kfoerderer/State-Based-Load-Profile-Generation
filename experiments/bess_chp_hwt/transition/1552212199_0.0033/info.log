@@ -1,0 +1,2298 @@
+2019-03-10 11:03:19,612 [INFO] batch_size: 32
+2019-03-10 11:03:19,613 [INFO] learning_rate_initialization: 0.001000, learning_rate_loss_factor: 1.000000, learning_rate_decay_after: 50000, learning_rate_decay_at: 10000, learning_rate_decay_factor: 0.500000
+2019-03-10 11:03:19,614 [INFO] weigths: tensor([20.,  1.,  1., 20., 40., 10., 10.,  1.,  1.], device='cuda:0')
+2019-03-10 11:03:19,615 [INFO] regularization factor: 0.0000000100000000
+2019-03-10 11:03:19,616 [INFO] unfolding_after: 1000, unfolding_at: 1000, unfolding_delta: 10, unfolding_share: 0.000000
+2019-03-10 11:03:19,777 [INFO] ---------------------------------
+2019-03-10 11:03:19,779 [INFO] Training model #0: (412, 64, 9) @ 1 to 3, step at 30000
+2019-03-10 11:03:42,804 [INFO] ---------------------------------
+2019-03-10 11:03:42,805 [INFO] Summary:
+2019-03-10 11:03:42,806 [INFO] Batch 1000, worst loss 8.154923 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:03:42,807 [INFO] Regularization: 5255.975586 * 0.0000000100 = 0.0000525598 loss
+2019-03-10 11:03:42,807 [INFO] unfolding 0, single step 1001
+2019-03-10 11:03:42,808 [INFO] Sum of grad norms of most recent batch: 15.920904
+2019-03-10 11:03:42,809 [INFO] ---------------------------------
+2019-03-10 11:04:05,236 [INFO] ---------------------------------
+2019-03-10 11:04:05,237 [INFO] Summary:
+2019-03-10 11:04:05,237 [INFO] Batch 2000, worst loss 0.590164 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:04:05,238 [INFO] Regularization: 3951.421631 * 0.0000000100 = 0.0000395142 loss
+2019-03-10 11:04:05,238 [INFO] unfolding 0, single step 2001
+2019-03-10 11:04:05,239 [INFO] Sum of grad norms of most recent batch: 1.595963
+2019-03-10 11:04:05,240 [INFO] ---------------------------------
+2019-03-10 11:04:28,053 [INFO] ---------------------------------
+2019-03-10 11:04:28,054 [INFO] Summary:
+2019-03-10 11:04:28,055 [INFO] Batch 3000, worst loss 0.017795 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:04:28,055 [INFO] Regularization: 3896.736572 * 0.0000000100 = 0.0000389674 loss
+2019-03-10 11:04:28,056 [INFO] unfolding 0, single step 3001
+2019-03-10 11:04:28,057 [INFO] Sum of grad norms of most recent batch: 2.077019
+2019-03-10 11:04:28,057 [INFO] ---------------------------------
+2019-03-10 11:04:50,716 [INFO] ---------------------------------
+2019-03-10 11:04:50,717 [INFO] Summary:
+2019-03-10 11:04:50,718 [INFO] Batch 4000, worst loss 0.021721 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:04:50,719 [INFO] Regularization: 3840.996582 * 0.0000000100 = 0.0000384100 loss
+2019-03-10 11:04:50,719 [INFO] unfolding 0, single step 4001
+2019-03-10 11:04:50,720 [INFO] Sum of grad norms of most recent batch: 1.639084
+2019-03-10 11:04:50,721 [INFO] ---------------------------------
+2019-03-10 11:05:13,831 [INFO] ---------------------------------
+2019-03-10 11:05:13,832 [INFO] Summary:
+2019-03-10 11:05:13,832 [INFO] Batch 5000, worst loss 0.018421 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:05:13,833 [INFO] Regularization: 3777.134766 * 0.0000000100 = 0.0000377713 loss
+2019-03-10 11:05:13,834 [INFO] unfolding 0, single step 5001
+2019-03-10 11:05:13,835 [INFO] Sum of grad norms of most recent batch: 0.689784
+2019-03-10 11:05:13,836 [INFO] ---------------------------------
+2019-03-10 11:05:36,653 [INFO] ---------------------------------
+2019-03-10 11:05:36,654 [INFO] Summary:
+2019-03-10 11:05:36,655 [INFO] Batch 6000, worst loss 0.028855 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:05:36,657 [INFO] Regularization: 3688.312256 * 0.0000000100 = 0.0000368831 loss
+2019-03-10 11:05:36,657 [INFO] unfolding 0, single step 6001
+2019-03-10 11:05:36,658 [INFO] Sum of grad norms of most recent batch: 1.337702
+2019-03-10 11:05:36,659 [INFO] ---------------------------------
+2019-03-10 11:05:59,416 [INFO] ---------------------------------
+2019-03-10 11:05:59,416 [INFO] Summary:
+2019-03-10 11:05:59,417 [INFO] Batch 7000, worst loss 0.021670 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:05:59,418 [INFO] Regularization: 3581.350586 * 0.0000000100 = 0.0000358135 loss
+2019-03-10 11:05:59,418 [INFO] unfolding 0, single step 7001
+2019-03-10 11:05:59,419 [INFO] Sum of grad norms of most recent batch: 0.987621
+2019-03-10 11:05:59,420 [INFO] ---------------------------------
+2019-03-10 11:06:22,222 [INFO] ---------------------------------
+2019-03-10 11:06:22,223 [INFO] Summary:
+2019-03-10 11:06:22,224 [INFO] Batch 8000, worst loss 0.031903 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:06:22,224 [INFO] Regularization: 3459.916260 * 0.0000000100 = 0.0000345992 loss
+2019-03-10 11:06:22,225 [INFO] unfolding 0, single step 8001
+2019-03-10 11:06:22,226 [INFO] Sum of grad norms of most recent batch: 1.110784
+2019-03-10 11:06:22,227 [INFO] ---------------------------------
+2019-03-10 11:06:45,085 [INFO] ---------------------------------
+2019-03-10 11:06:45,086 [INFO] Summary:
+2019-03-10 11:06:45,087 [INFO] Batch 9000, worst loss 0.033656 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:06:45,088 [INFO] Regularization: 3323.408447 * 0.0000000100 = 0.0000332341 loss
+2019-03-10 11:06:45,088 [INFO] unfolding 0, single step 9001
+2019-03-10 11:06:45,089 [INFO] Sum of grad norms of most recent batch: 0.565174
+2019-03-10 11:06:45,089 [INFO] ---------------------------------
+2019-03-10 11:07:08,024 [INFO] ---------------------------------
+2019-03-10 11:07:08,026 [INFO] Summary:
+2019-03-10 11:07:08,026 [INFO] Batch 10000, worst loss 0.035760 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:07:08,027 [INFO] Regularization: 3191.375732 * 0.0000000100 = 0.0000319138 loss
+2019-03-10 11:07:08,028 [INFO] unfolding 0, single step 10001
+2019-03-10 11:07:08,029 [INFO] Sum of grad norms of most recent batch: 0.843210
+2019-03-10 11:07:08,029 [INFO] ---------------------------------
+2019-03-10 11:07:21,013 [INFO] ---------------------------------
+2019-03-10 11:07:21,014 [INFO] Evaluation:
+2019-03-10 11:07:21,015 [INFO] Batch 10000, worst loss 0.025516 of 1000 batches (without reg.) @est.-depth 1
+2019-03-10 11:07:21,015 [INFO] ---------------------------------
+2019-03-10 11:07:43,954 [INFO] ---------------------------------
+2019-03-10 11:07:43,955 [INFO] Summary:
+2019-03-10 11:07:43,956 [INFO] Batch 11000, worst loss 0.025529 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:07:43,956 [INFO] Regularization: 3064.894287 * 0.0000000100 = 0.0000306489 loss
+2019-03-10 11:07:43,957 [INFO] unfolding 0, single step 11001
+2019-03-10 11:07:43,958 [INFO] Sum of grad norms of most recent batch: 0.640060
+2019-03-10 11:07:43,959 [INFO] ---------------------------------
+2019-03-10 11:08:06,983 [INFO] ---------------------------------
+2019-03-10 11:08:06,984 [INFO] Summary:
+2019-03-10 11:08:06,985 [INFO] Batch 12000, worst loss 0.020969 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:08:06,986 [INFO] Regularization: 2914.885010 * 0.0000000100 = 0.0000291489 loss
+2019-03-10 11:08:06,986 [INFO] unfolding 0, single step 12001
+2019-03-10 11:08:06,987 [INFO] Sum of grad norms of most recent batch: 0.585645
+2019-03-10 11:08:06,987 [INFO] ---------------------------------
+2019-03-10 11:08:29,746 [INFO] ---------------------------------
+2019-03-10 11:08:29,747 [INFO] Summary:
+2019-03-10 11:08:29,748 [INFO] Batch 13000, worst loss 0.018675 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:08:29,748 [INFO] Regularization: 2773.442627 * 0.0000000100 = 0.0000277344 loss
+2019-03-10 11:08:29,748 [INFO] unfolding 0, single step 13001
+2019-03-10 11:08:29,750 [INFO] Sum of grad norms of most recent batch: 1.314111
+2019-03-10 11:08:29,750 [INFO] ---------------------------------
+2019-03-10 11:08:52,701 [INFO] ---------------------------------
+2019-03-10 11:08:52,701 [INFO] Summary:
+2019-03-10 11:08:52,702 [INFO] Batch 14000, worst loss 0.055162 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:08:52,703 [INFO] Regularization: 2666.254395 * 0.0000000100 = 0.0000266625 loss
+2019-03-10 11:08:52,704 [INFO] unfolding 0, single step 14001
+2019-03-10 11:08:52,705 [INFO] Sum of grad norms of most recent batch: 0.854683
+2019-03-10 11:08:52,705 [INFO] ---------------------------------
+2019-03-10 11:09:15,710 [INFO] ---------------------------------
+2019-03-10 11:09:15,711 [INFO] Summary:
+2019-03-10 11:09:15,711 [INFO] Batch 15000, worst loss 0.010657 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:09:15,712 [INFO] Regularization: 2538.962646 * 0.0000000100 = 0.0000253896 loss
+2019-03-10 11:09:15,712 [INFO] unfolding 0, single step 15001
+2019-03-10 11:09:15,713 [INFO] Sum of grad norms of most recent batch: 0.668068
+2019-03-10 11:09:15,714 [INFO] ---------------------------------
+2019-03-10 11:09:38,602 [INFO] ---------------------------------
+2019-03-10 11:09:38,602 [INFO] Summary:
+2019-03-10 11:09:38,603 [INFO] Batch 16000, worst loss 0.025178 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:09:38,604 [INFO] Regularization: 2441.381836 * 0.0000000100 = 0.0000244138 loss
+2019-03-10 11:09:38,604 [INFO] unfolding 0, single step 16001
+2019-03-10 11:09:38,605 [INFO] Sum of grad norms of most recent batch: 0.930430
+2019-03-10 11:09:38,605 [INFO] ---------------------------------
+2019-03-10 11:10:01,650 [INFO] ---------------------------------
+2019-03-10 11:10:01,651 [INFO] Summary:
+2019-03-10 11:10:01,651 [INFO] Batch 17000, worst loss 0.029419 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:10:01,652 [INFO] Regularization: 2373.465576 * 0.0000000100 = 0.0000237347 loss
+2019-03-10 11:10:01,652 [INFO] unfolding 0, single step 17001
+2019-03-10 11:10:01,653 [INFO] Sum of grad norms of most recent batch: 1.381858
+2019-03-10 11:10:01,654 [INFO] ---------------------------------
+2019-03-10 11:10:24,373 [INFO] ---------------------------------
+2019-03-10 11:10:24,374 [INFO] Summary:
+2019-03-10 11:10:24,374 [INFO] Batch 18000, worst loss 0.236871 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:10:24,375 [INFO] Regularization: 2310.723145 * 0.0000000100 = 0.0000231072 loss
+2019-03-10 11:10:24,376 [INFO] unfolding 0, single step 18001
+2019-03-10 11:10:24,377 [INFO] Sum of grad norms of most recent batch: 0.318929
+2019-03-10 11:10:24,378 [INFO] ---------------------------------
+2019-03-10 11:10:47,377 [INFO] ---------------------------------
+2019-03-10 11:10:47,378 [INFO] Summary:
+2019-03-10 11:10:47,378 [INFO] Batch 19000, worst loss 0.044844 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:10:47,379 [INFO] Regularization: 2230.299561 * 0.0000000100 = 0.0000223030 loss
+2019-03-10 11:10:47,379 [INFO] unfolding 0, single step 19001
+2019-03-10 11:10:47,380 [INFO] Sum of grad norms of most recent batch: 0.608382
+2019-03-10 11:10:47,381 [INFO] ---------------------------------
+2019-03-10 11:11:10,490 [INFO] ---------------------------------
+2019-03-10 11:11:10,491 [INFO] Summary:
+2019-03-10 11:11:10,492 [INFO] Batch 20000, worst loss 0.120525 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:11:10,493 [INFO] Regularization: 2187.892090 * 0.0000000100 = 0.0000218789 loss
+2019-03-10 11:11:10,493 [INFO] unfolding 0, single step 20001
+2019-03-10 11:11:10,494 [INFO] Sum of grad norms of most recent batch: 1.168810
+2019-03-10 11:11:10,495 [INFO] ---------------------------------
+2019-03-10 11:11:23,493 [INFO] ---------------------------------
+2019-03-10 11:11:23,494 [INFO] Evaluation:
+2019-03-10 11:11:23,494 [INFO] Batch 20000, worst loss 0.033856 of 1000 batches (without reg.) @est.-depth 1
+2019-03-10 11:11:23,499 [INFO] ---------------------------------
+2019-03-10 11:11:46,292 [INFO] ---------------------------------
+2019-03-10 11:11:46,293 [INFO] Summary:
+2019-03-10 11:11:46,294 [INFO] Batch 21000, worst loss 0.015747 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:11:46,295 [INFO] Regularization: 2133.257568 * 0.0000000100 = 0.0000213326 loss
+2019-03-10 11:11:46,295 [INFO] unfolding 0, single step 21001
+2019-03-10 11:11:46,296 [INFO] Sum of grad norms of most recent batch: 0.703117
+2019-03-10 11:11:46,297 [INFO] ---------------------------------
+2019-03-10 11:12:09,442 [INFO] ---------------------------------
+2019-03-10 11:12:09,443 [INFO] Summary:
+2019-03-10 11:12:09,443 [INFO] Batch 22000, worst loss 0.020471 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:12:09,444 [INFO] Regularization: 2078.535156 * 0.0000000100 = 0.0000207854 loss
+2019-03-10 11:12:09,444 [INFO] unfolding 0, single step 22001
+2019-03-10 11:12:09,445 [INFO] Sum of grad norms of most recent batch: 0.334514
+2019-03-10 11:12:09,446 [INFO] ---------------------------------
+2019-03-10 11:12:32,287 [INFO] ---------------------------------
+2019-03-10 11:12:32,288 [INFO] Summary:
+2019-03-10 11:12:32,288 [INFO] Batch 23000, worst loss 0.023393 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:12:32,289 [INFO] Regularization: 2034.552979 * 0.0000000100 = 0.0000203455 loss
+2019-03-10 11:12:32,289 [INFO] unfolding 0, single step 23001
+2019-03-10 11:12:32,290 [INFO] Sum of grad norms of most recent batch: 0.990099
+2019-03-10 11:12:32,291 [INFO] ---------------------------------
+2019-03-10 11:12:55,023 [INFO] ---------------------------------
+2019-03-10 11:12:55,024 [INFO] Summary:
+2019-03-10 11:12:55,025 [INFO] Batch 24000, worst loss 0.302654 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:12:55,026 [INFO] Regularization: 2061.568359 * 0.0000000100 = 0.0000206157 loss
+2019-03-10 11:12:55,026 [INFO] unfolding 0, single step 24001
+2019-03-10 11:12:55,027 [INFO] Sum of grad norms of most recent batch: 1.075481
+2019-03-10 11:12:55,028 [INFO] ---------------------------------
+2019-03-10 11:13:17,775 [INFO] ---------------------------------
+2019-03-10 11:13:17,776 [INFO] Summary:
+2019-03-10 11:13:17,778 [INFO] Batch 25000, worst loss 0.047214 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:13:17,779 [INFO] Regularization: 2029.916016 * 0.0000000100 = 0.0000202992 loss
+2019-03-10 11:13:17,780 [INFO] unfolding 0, single step 25001
+2019-03-10 11:13:17,780 [INFO] Sum of grad norms of most recent batch: 0.462179
+2019-03-10 11:13:17,781 [INFO] ---------------------------------
+2019-03-10 11:13:40,805 [INFO] ---------------------------------
+2019-03-10 11:13:40,806 [INFO] Summary:
+2019-03-10 11:13:40,806 [INFO] Batch 26000, worst loss 0.047944 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:13:40,807 [INFO] Regularization: 1963.998779 * 0.0000000100 = 0.0000196400 loss
+2019-03-10 11:13:40,807 [INFO] unfolding 0, single step 26001
+2019-03-10 11:13:40,808 [INFO] Sum of grad norms of most recent batch: 1.094811
+2019-03-10 11:13:40,808 [INFO] ---------------------------------
+2019-03-10 11:14:03,267 [INFO] ---------------------------------
+2019-03-10 11:14:03,268 [INFO] Summary:
+2019-03-10 11:14:03,268 [INFO] Batch 27000, worst loss 0.031384 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:14:03,269 [INFO] Regularization: 1931.062866 * 0.0000000100 = 0.0000193106 loss
+2019-03-10 11:14:03,269 [INFO] unfolding 0, single step 27001
+2019-03-10 11:14:03,270 [INFO] Sum of grad norms of most recent batch: 0.836232
+2019-03-10 11:14:03,270 [INFO] ---------------------------------
+2019-03-10 11:14:25,912 [INFO] ---------------------------------
+2019-03-10 11:14:25,913 [INFO] Summary:
+2019-03-10 11:14:25,914 [INFO] Batch 28000, worst loss 0.018327 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:14:25,914 [INFO] Regularization: 1904.520996 * 0.0000000100 = 0.0000190452 loss
+2019-03-10 11:14:25,915 [INFO] unfolding 0, single step 28001
+2019-03-10 11:14:25,915 [INFO] Sum of grad norms of most recent batch: 0.832366
+2019-03-10 11:14:25,916 [INFO] ---------------------------------
+2019-03-10 11:14:48,772 [INFO] ---------------------------------
+2019-03-10 11:14:48,773 [INFO] Summary:
+2019-03-10 11:14:48,774 [INFO] Batch 29000, worst loss 0.163713 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:14:48,774 [INFO] Regularization: 1903.278931 * 0.0000000100 = 0.0000190328 loss
+2019-03-10 11:14:48,775 [INFO] unfolding 0, single step 29001
+2019-03-10 11:14:48,775 [INFO] Sum of grad norms of most recent batch: 0.418834
+2019-03-10 11:14:48,776 [INFO] ---------------------------------
+2019-03-10 11:15:11,726 [INFO] ---------------------------------
+2019-03-10 11:15:11,726 [INFO] Summary:
+2019-03-10 11:15:11,727 [INFO] Batch 30000, worst loss 0.026601 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 11:15:11,728 [INFO] Regularization: 1855.835815 * 0.0000000100 = 0.0000185584 loss
+2019-03-10 11:15:11,728 [INFO] unfolding 0, single step 30001
+2019-03-10 11:15:11,729 [INFO] Sum of grad norms of most recent batch: 0.713343
+2019-03-10 11:15:11,730 [INFO] ---------------------------------
+2019-03-10 11:15:24,586 [INFO] ---------------------------------
+2019-03-10 11:15:24,587 [INFO] Evaluation:
+2019-03-10 11:15:24,588 [INFO] Batch 30000, worst loss 0.011706 of 1000 batches (without reg.) @est.-depth 1
+2019-03-10 11:15:24,590 [INFO] ---------------------------------
+2019-03-10 11:15:48,197 [INFO] ---------------------------------
+2019-03-10 11:15:48,198 [INFO] Summary:
+2019-03-10 11:15:48,199 [INFO] Batch 31000, worst loss 13275.717773 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:15:48,199 [INFO] Regularization: 13968.375000 * 0.0000000100 = 0.0001396837 loss
+2019-03-10 11:15:48,200 [INFO] unfolding 0, single step 31001
+2019-03-10 11:15:48,201 [INFO] Sum of grad norms of most recent batch: 0.856125
+2019-03-10 11:15:48,201 [INFO] ---------------------------------
+2019-03-10 11:16:11,702 [INFO] ---------------------------------
+2019-03-10 11:16:11,703 [INFO] Summary:
+2019-03-10 11:16:11,704 [INFO] Batch 32000, worst loss 0.017318 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:16:11,705 [INFO] Regularization: 13633.116211 * 0.0000000100 = 0.0001363312 loss
+2019-03-10 11:16:11,705 [INFO] unfolding 0, single step 32001
+2019-03-10 11:16:11,706 [INFO] Sum of grad norms of most recent batch: 0.901428
+2019-03-10 11:16:11,707 [INFO] ---------------------------------
+2019-03-10 11:16:35,118 [INFO] ---------------------------------
+2019-03-10 11:16:35,119 [INFO] Summary:
+2019-03-10 11:16:35,119 [INFO] Batch 33000, worst loss 0.010465 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:16:35,120 [INFO] Regularization: 13288.699219 * 0.0000000100 = 0.0001328870 loss
+2019-03-10 11:16:35,120 [INFO] unfolding 0, single step 33001
+2019-03-10 11:16:35,121 [INFO] Sum of grad norms of most recent batch: 0.681078
+2019-03-10 11:16:35,122 [INFO] ---------------------------------
+2019-03-10 11:16:58,456 [INFO] ---------------------------------
+2019-03-10 11:16:58,457 [INFO] Summary:
+2019-03-10 11:16:58,457 [INFO] Batch 34000, worst loss 0.020395 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:16:58,458 [INFO] Regularization: 12947.111328 * 0.0000000100 = 0.0001294711 loss
+2019-03-10 11:16:58,458 [INFO] unfolding 0, single step 34001
+2019-03-10 11:16:58,459 [INFO] Sum of grad norms of most recent batch: 0.339459
+2019-03-10 11:16:58,459 [INFO] ---------------------------------
+2019-03-10 11:17:22,088 [INFO] ---------------------------------
+2019-03-10 11:17:22,089 [INFO] Summary:
+2019-03-10 11:17:22,090 [INFO] Batch 35000, worst loss 0.020412 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:17:22,090 [INFO] Regularization: 12676.167969 * 0.0000000100 = 0.0001267617 loss
+2019-03-10 11:17:22,091 [INFO] unfolding 0, single step 35001
+2019-03-10 11:17:22,092 [INFO] Sum of grad norms of most recent batch: 0.692160
+2019-03-10 11:17:22,093 [INFO] ---------------------------------
+2019-03-10 11:17:45,737 [INFO] ---------------------------------
+2019-03-10 11:17:45,738 [INFO] Summary:
+2019-03-10 11:17:45,738 [INFO] Batch 36000, worst loss 0.012785 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:17:45,739 [INFO] Regularization: 12376.446289 * 0.0000000100 = 0.0001237645 loss
+2019-03-10 11:17:45,740 [INFO] unfolding 0, single step 36001
+2019-03-10 11:17:45,740 [INFO] Sum of grad norms of most recent batch: 1.179938
+2019-03-10 11:17:45,741 [INFO] ---------------------------------
+2019-03-10 11:18:08,975 [INFO] ---------------------------------
+2019-03-10 11:18:08,976 [INFO] Summary:
+2019-03-10 11:18:08,976 [INFO] Batch 37000, worst loss 0.726699 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:18:08,977 [INFO] Regularization: 12089.392578 * 0.0000000100 = 0.0001208939 loss
+2019-03-10 11:18:08,978 [INFO] unfolding 0, single step 37001
+2019-03-10 11:18:08,978 [INFO] Sum of grad norms of most recent batch: 0.425713
+2019-03-10 11:18:08,979 [INFO] ---------------------------------
+2019-03-10 11:18:32,478 [INFO] ---------------------------------
+2019-03-10 11:18:32,479 [INFO] Summary:
+2019-03-10 11:18:32,480 [INFO] Batch 38000, worst loss 0.036355 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:18:32,481 [INFO] Regularization: 11768.436523 * 0.0000000100 = 0.0001176844 loss
+2019-03-10 11:18:32,481 [INFO] unfolding 0, single step 38001
+2019-03-10 11:18:32,482 [INFO] Sum of grad norms of most recent batch: 0.782568
+2019-03-10 11:18:32,482 [INFO] ---------------------------------
+2019-03-10 11:18:55,879 [INFO] ---------------------------------
+2019-03-10 11:18:55,880 [INFO] Summary:
+2019-03-10 11:18:55,881 [INFO] Batch 39000, worst loss 0.024511 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:18:55,881 [INFO] Regularization: 11448.995117 * 0.0000000100 = 0.0001144900 loss
+2019-03-10 11:18:55,882 [INFO] unfolding 0, single step 39001
+2019-03-10 11:18:55,883 [INFO] Sum of grad norms of most recent batch: 0.604040
+2019-03-10 11:18:55,883 [INFO] ---------------------------------
+2019-03-10 11:19:19,698 [INFO] ---------------------------------
+2019-03-10 11:19:19,699 [INFO] Summary:
+2019-03-10 11:19:19,700 [INFO] Batch 40000, worst loss 0.019361 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:19:19,700 [INFO] Regularization: 10940.543945 * 0.0000000100 = 0.0001094054 loss
+2019-03-10 11:19:19,701 [INFO] unfolding 0, single step 40001
+2019-03-10 11:19:19,701 [INFO] Sum of grad norms of most recent batch: 0.554650
+2019-03-10 11:19:19,703 [INFO] ---------------------------------
+2019-03-10 11:19:32,867 [INFO] ---------------------------------
+2019-03-10 11:19:32,868 [INFO] Evaluation:
+2019-03-10 11:19:32,868 [INFO] Batch 40000, worst loss 0.032454 of 1000 batches (without reg.) @est.-depth 2
+2019-03-10 11:19:32,869 [INFO] ---------------------------------
+2019-03-10 11:19:56,274 [INFO] ---------------------------------
+2019-03-10 11:19:56,274 [INFO] Summary:
+2019-03-10 11:19:56,275 [INFO] Batch 41000, worst loss 0.159691 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:19:56,279 [INFO] Regularization: 10515.101562 * 0.0000000100 = 0.0001051510 loss
+2019-03-10 11:19:56,280 [INFO] unfolding 0, single step 41001
+2019-03-10 11:19:56,281 [INFO] Sum of grad norms of most recent batch: 0.686922
+2019-03-10 11:19:56,281 [INFO] ---------------------------------
+2019-03-10 11:20:19,653 [INFO] ---------------------------------
+2019-03-10 11:20:19,655 [INFO] Summary:
+2019-03-10 11:20:19,656 [INFO] Batch 42000, worst loss 0.022755 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:20:19,657 [INFO] Regularization: 9998.405273 * 0.0000000100 = 0.0000999840 loss
+2019-03-10 11:20:19,657 [INFO] unfolding 0, single step 42001
+2019-03-10 11:20:19,658 [INFO] Sum of grad norms of most recent batch: 1.098857
+2019-03-10 11:20:19,659 [INFO] ---------------------------------
+2019-03-10 11:20:43,258 [INFO] ---------------------------------
+2019-03-10 11:20:43,259 [INFO] Summary:
+2019-03-10 11:20:43,259 [INFO] Batch 43000, worst loss 0.062845 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:20:43,260 [INFO] Regularization: 9392.962891 * 0.0000000100 = 0.0000939296 loss
+2019-03-10 11:20:43,260 [INFO] unfolding 0, single step 43001
+2019-03-10 11:20:43,261 [INFO] Sum of grad norms of most recent batch: 0.720056
+2019-03-10 11:20:43,261 [INFO] ---------------------------------
+2019-03-10 11:21:06,699 [INFO] ---------------------------------
+2019-03-10 11:21:06,700 [INFO] Summary:
+2019-03-10 11:21:06,701 [INFO] Batch 44000, worst loss 0.014809 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:21:06,701 [INFO] Regularization: 8763.303711 * 0.0000000100 = 0.0000876330 loss
+2019-03-10 11:21:06,702 [INFO] unfolding 0, single step 44001
+2019-03-10 11:21:06,703 [INFO] Sum of grad norms of most recent batch: 0.855018
+2019-03-10 11:21:06,704 [INFO] ---------------------------------
+2019-03-10 11:21:30,346 [INFO] ---------------------------------
+2019-03-10 11:21:30,347 [INFO] Summary:
+2019-03-10 11:21:30,348 [INFO] Batch 45000, worst loss 0.017915 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:21:30,349 [INFO] Regularization: 8176.892578 * 0.0000000100 = 0.0000817689 loss
+2019-03-10 11:21:30,349 [INFO] unfolding 0, single step 45001
+2019-03-10 11:21:30,350 [INFO] Sum of grad norms of most recent batch: 0.837882
+2019-03-10 11:21:30,351 [INFO] ---------------------------------
+2019-03-10 11:21:53,779 [INFO] ---------------------------------
+2019-03-10 11:21:53,779 [INFO] Summary:
+2019-03-10 11:21:53,780 [INFO] Batch 46000, worst loss 0.035472 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:21:53,780 [INFO] Regularization: 7583.577148 * 0.0000000100 = 0.0000758358 loss
+2019-03-10 11:21:53,781 [INFO] unfolding 0, single step 46001
+2019-03-10 11:21:53,781 [INFO] Sum of grad norms of most recent batch: 0.872311
+2019-03-10 11:21:53,782 [INFO] ---------------------------------
+2019-03-10 11:22:17,210 [INFO] ---------------------------------
+2019-03-10 11:22:17,211 [INFO] Summary:
+2019-03-10 11:22:17,211 [INFO] Batch 47000, worst loss 0.021651 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:22:17,212 [INFO] Regularization: 6989.295898 * 0.0000000100 = 0.0000698930 loss
+2019-03-10 11:22:17,213 [INFO] unfolding 0, single step 47001
+2019-03-10 11:22:17,213 [INFO] Sum of grad norms of most recent batch: 0.262798
+2019-03-10 11:22:17,214 [INFO] ---------------------------------
+2019-03-10 11:22:40,807 [INFO] ---------------------------------
+2019-03-10 11:22:40,809 [INFO] Summary:
+2019-03-10 11:22:40,810 [INFO] Batch 48000, worst loss 0.026631 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:22:40,811 [INFO] Regularization: 6532.208496 * 0.0000000100 = 0.0000653221 loss
+2019-03-10 11:22:40,812 [INFO] unfolding 0, single step 48001
+2019-03-10 11:22:40,814 [INFO] Sum of grad norms of most recent batch: 0.227684
+2019-03-10 11:22:40,817 [INFO] ---------------------------------
+2019-03-10 11:23:04,017 [INFO] ---------------------------------
+2019-03-10 11:23:04,018 [INFO] Summary:
+2019-03-10 11:23:04,018 [INFO] Batch 49000, worst loss 0.013935 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:23:04,019 [INFO] Regularization: 6203.210938 * 0.0000000100 = 0.0000620321 loss
+2019-03-10 11:23:04,019 [INFO] unfolding 0, single step 49001
+2019-03-10 11:23:04,020 [INFO] Sum of grad norms of most recent batch: 0.528956
+2019-03-10 11:23:04,021 [INFO] ---------------------------------
+2019-03-10 11:23:27,563 [INFO] ---------------------------------
+2019-03-10 11:23:27,564 [INFO] Summary:
+2019-03-10 11:23:27,565 [INFO] Batch 50000, worst loss 0.034967 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:23:27,565 [INFO] Regularization: 5917.994141 * 0.0000000100 = 0.0000591799 loss
+2019-03-10 11:23:27,566 [INFO] unfolding 0, single step 50001
+2019-03-10 11:23:27,567 [INFO] Sum of grad norms of most recent batch: 0.948787
+2019-03-10 11:23:27,568 [INFO] ---------------------------------
+2019-03-10 11:23:40,760 [INFO] ---------------------------------
+2019-03-10 11:23:40,762 [INFO] Evaluation:
+2019-03-10 11:23:40,763 [INFO] Batch 50000, worst loss 0.023157 of 1000 batches (without reg.) @est.-depth 2
+2019-03-10 11:23:40,764 [INFO] ---------------------------------
+2019-03-10 11:24:04,124 [INFO] ---------------------------------
+2019-03-10 11:24:04,125 [INFO] Summary:
+2019-03-10 11:24:04,126 [INFO] Batch 51000, worst loss 0.021682 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:24:04,126 [INFO] Regularization: 5662.762695 * 0.0000000100 = 0.0000566276 loss
+2019-03-10 11:24:04,127 [INFO] unfolding 0, single step 51001
+2019-03-10 11:24:04,128 [INFO] Sum of grad norms of most recent batch: 0.480850
+2019-03-10 11:24:04,128 [INFO] ---------------------------------
+2019-03-10 11:24:27,476 [INFO] ---------------------------------
+2019-03-10 11:24:27,477 [INFO] Summary:
+2019-03-10 11:24:27,478 [INFO] Batch 52000, worst loss 0.032580 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:24:27,479 [INFO] Regularization: 5328.039551 * 0.0000000100 = 0.0000532804 loss
+2019-03-10 11:24:27,479 [INFO] unfolding 0, single step 52001
+2019-03-10 11:24:27,480 [INFO] Sum of grad norms of most recent batch: 0.692497
+2019-03-10 11:24:27,481 [INFO] ---------------------------------
+2019-03-10 11:24:51,161 [INFO] ---------------------------------
+2019-03-10 11:24:51,162 [INFO] Summary:
+2019-03-10 11:24:51,163 [INFO] Batch 53000, worst loss 0.027683 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:24:51,164 [INFO] Regularization: 5006.665527 * 0.0000000100 = 0.0000500667 loss
+2019-03-10 11:24:51,165 [INFO] unfolding 0, single step 53001
+2019-03-10 11:24:51,166 [INFO] Sum of grad norms of most recent batch: 0.592201
+2019-03-10 11:24:51,167 [INFO] ---------------------------------
+2019-03-10 11:25:14,760 [INFO] ---------------------------------
+2019-03-10 11:25:14,761 [INFO] Summary:
+2019-03-10 11:25:14,761 [INFO] Batch 54000, worst loss 0.036146 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:25:14,762 [INFO] Regularization: 4720.101074 * 0.0000000100 = 0.0000472010 loss
+2019-03-10 11:25:14,763 [INFO] unfolding 0, single step 54001
+2019-03-10 11:25:14,763 [INFO] Sum of grad norms of most recent batch: 0.264982
+2019-03-10 11:25:14,765 [INFO] ---------------------------------
+2019-03-10 11:25:38,517 [INFO] ---------------------------------
+2019-03-10 11:25:38,517 [INFO] Summary:
+2019-03-10 11:25:38,518 [INFO] Batch 55000, worst loss 0.019542 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:25:38,519 [INFO] Regularization: 4388.127441 * 0.0000000100 = 0.0000438813 loss
+2019-03-10 11:25:38,519 [INFO] unfolding 0, single step 55001
+2019-03-10 11:25:38,520 [INFO] Sum of grad norms of most recent batch: 0.395704
+2019-03-10 11:25:38,521 [INFO] ---------------------------------
+2019-03-10 11:26:02,054 [INFO] ---------------------------------
+2019-03-10 11:26:02,055 [INFO] Summary:
+2019-03-10 11:26:02,055 [INFO] Batch 56000, worst loss 0.019686 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:26:02,056 [INFO] Regularization: 4007.927734 * 0.0000000100 = 0.0000400793 loss
+2019-03-10 11:26:02,057 [INFO] unfolding 0, single step 56001
+2019-03-10 11:26:02,058 [INFO] Sum of grad norms of most recent batch: 0.742478
+2019-03-10 11:26:02,058 [INFO] ---------------------------------
+2019-03-10 11:26:25,641 [INFO] ---------------------------------
+2019-03-10 11:26:25,642 [INFO] Summary:
+2019-03-10 11:26:25,643 [INFO] Batch 57000, worst loss 0.027584 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:26:25,644 [INFO] Regularization: 3740.228027 * 0.0000000100 = 0.0000374023 loss
+2019-03-10 11:26:25,644 [INFO] unfolding 0, single step 57001
+2019-03-10 11:26:25,646 [INFO] Sum of grad norms of most recent batch: 0.546117
+2019-03-10 11:26:25,646 [INFO] ---------------------------------
+2019-03-10 11:26:49,120 [INFO] ---------------------------------
+2019-03-10 11:26:49,121 [INFO] Summary:
+2019-03-10 11:26:49,121 [INFO] Batch 58000, worst loss 0.029063 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:26:49,122 [INFO] Regularization: 3401.024414 * 0.0000000100 = 0.0000340102 loss
+2019-03-10 11:26:49,123 [INFO] unfolding 0, single step 58001
+2019-03-10 11:26:49,124 [INFO] Sum of grad norms of most recent batch: 0.308237
+2019-03-10 11:26:49,124 [INFO] ---------------------------------
+2019-03-10 11:27:12,573 [INFO] ---------------------------------
+2019-03-10 11:27:12,574 [INFO] Summary:
+2019-03-10 11:27:12,575 [INFO] Batch 59000, worst loss 0.030517 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:27:12,576 [INFO] Regularization: 3040.196777 * 0.0000000100 = 0.0000304020 loss
+2019-03-10 11:27:12,576 [INFO] unfolding 0, single step 59001
+2019-03-10 11:27:12,577 [INFO] Sum of grad norms of most recent batch: 0.939314
+2019-03-10 11:27:12,578 [INFO] ---------------------------------
+2019-03-10 11:27:36,214 [INFO] ---------------------------------
+2019-03-10 11:27:36,215 [INFO] Summary:
+2019-03-10 11:27:36,215 [INFO] Batch 60000, worst loss 0.020082 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 11:27:36,216 [INFO] Regularization: 2728.230469 * 0.0000000100 = 0.0000272823 loss
+2019-03-10 11:27:36,216 [INFO] unfolding 0, single step 60001
+2019-03-10 11:27:36,217 [INFO] Sum of grad norms of most recent batch: 0.672005
+2019-03-10 11:27:36,217 [INFO] ---------------------------------
+2019-03-10 11:27:49,623 [INFO] ---------------------------------
+2019-03-10 11:27:49,624 [INFO] Evaluation:
+2019-03-10 11:27:49,624 [INFO] Batch 60000, worst loss 0.027479 of 1000 batches (without reg.) @est.-depth 2
+2019-03-10 11:27:49,626 [INFO] ---------------------------------
+2019-03-10 11:28:13,979 [INFO] ---------------------------------
+2019-03-10 11:28:13,980 [INFO] Summary:
+2019-03-10 11:28:13,981 [INFO] Batch 61000, worst loss 119833.359375 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 11:28:13,981 [INFO] Regularization: 14305.711914 * 0.0000000100 = 0.0001430571 loss
+2019-03-10 11:28:13,982 [INFO] unfolding 0, single step 61001
+2019-03-10 11:28:13,982 [INFO] Sum of grad norms of most recent batch: 0.726973
+2019-03-10 11:28:13,983 [INFO] ---------------------------------
+2019-03-10 11:28:37,924 [INFO] ---------------------------------
+2019-03-10 11:28:37,925 [INFO] Summary:
+2019-03-10 11:28:37,926 [INFO] Batch 62000, worst loss 0.435420 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 11:28:37,927 [INFO] Regularization: 13534.238281 * 0.0000000100 = 0.0001353424 loss
+2019-03-10 11:28:37,927 [INFO] unfolding 0, single step 62001
+2019-03-10 11:28:37,928 [INFO] Sum of grad norms of most recent batch: 0.460524
+2019-03-10 11:28:37,928 [INFO] ---------------------------------
+2019-03-10 11:29:02,240 [INFO] ---------------------------------
+2019-03-10 11:29:02,241 [INFO] Summary:
+2019-03-10 11:29:02,242 [INFO] Batch 63000, worst loss 0.014443 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 11:29:02,243 [INFO] Regularization: 12841.191406 * 0.0000000100 = 0.0001284119 loss
+2019-03-10 11:29:02,243 [INFO] unfolding 0, single step 63001
+2019-03-10 11:29:02,244 [INFO] Sum of grad norms of most recent batch: 0.270191
+2019-03-10 11:29:02,244 [INFO] ---------------------------------
+2019-03-10 11:29:26,406 [INFO] ---------------------------------
+2019-03-10 11:29:26,407 [INFO] Summary:
+2019-03-10 11:29:26,408 [INFO] Batch 64000, worst loss 0.014251 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 11:29:26,409 [INFO] Regularization: 12320.803711 * 0.0000000100 = 0.0001232080 loss
+2019-03-10 11:29:26,409 [INFO] unfolding 0, single step 64001
+2019-03-10 11:29:26,410 [INFO] Sum of grad norms of most recent batch: 0.540389
+2019-03-10 11:29:26,411 [INFO] ---------------------------------
+2019-03-10 11:29:50,454 [INFO] ---------------------------------
+2019-03-10 11:29:50,454 [INFO] Summary:
+2019-03-10 11:29:50,455 [INFO] Batch 65000, worst loss 0.019428 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 11:29:50,455 [INFO] Regularization: 11889.575195 * 0.0000000100 = 0.0001188958 loss
+2019-03-10 11:29:50,455 [INFO] unfolding 0, single step 65001
+2019-03-10 11:29:50,456 [INFO] Sum of grad norms of most recent batch: 0.450109
+2019-03-10 11:29:50,457 [INFO] ---------------------------------
+2019-03-10 11:30:14,848 [INFO] ---------------------------------
+2019-03-10 11:30:14,849 [INFO] Summary:
+2019-03-10 11:30:14,850 [INFO] Batch 66000, worst loss 0.026212 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 11:30:14,851 [INFO] Regularization: 11513.433594 * 0.0000000100 = 0.0001151343 loss
+2019-03-10 11:30:14,851 [INFO] unfolding 0, single step 66001
+2019-03-10 11:30:14,852 [INFO] Sum of grad norms of most recent batch: 0.376032
+2019-03-10 11:30:14,852 [INFO] ---------------------------------
+2019-03-10 11:30:38,990 [INFO] ---------------------------------
+2019-03-10 11:30:38,991 [INFO] Summary:
+2019-03-10 11:30:38,991 [INFO] Batch 67000, worst loss 0.025426 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 11:30:38,992 [INFO] Regularization: 11065.033203 * 0.0000000100 = 0.0001106503 loss
+2019-03-10 11:30:38,992 [INFO] unfolding 0, single step 67001
+2019-03-10 11:30:38,993 [INFO] Sum of grad norms of most recent batch: 0.270423
+2019-03-10 11:30:38,993 [INFO] ---------------------------------
+2019-03-10 11:31:03,205 [INFO] ---------------------------------
+2019-03-10 11:31:03,206 [INFO] Summary:
+2019-03-10 11:31:03,207 [INFO] Batch 68000, worst loss 0.030134 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 11:31:03,208 [INFO] Regularization: 10666.132812 * 0.0000000100 = 0.0001066613 loss
+2019-03-10 11:31:03,208 [INFO] unfolding 0, single step 68001
+2019-03-10 11:31:03,209 [INFO] Sum of grad norms of most recent batch: 0.469817
+2019-03-10 11:31:03,209 [INFO] ---------------------------------
+2019-03-10 11:31:27,390 [INFO] ---------------------------------
+2019-03-10 11:31:27,392 [INFO] Summary:
+2019-03-10 11:31:27,392 [INFO] Batch 69000, worst loss 0.029785 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 11:31:27,393 [INFO] Regularization: 10222.295898 * 0.0000000100 = 0.0001022230 loss
+2019-03-10 11:31:27,394 [INFO] unfolding 0, single step 69001
+2019-03-10 11:31:27,395 [INFO] Sum of grad norms of most recent batch: 0.267237
+2019-03-10 11:31:27,396 [INFO] ---------------------------------
+2019-03-10 11:31:51,791 [INFO] ---------------------------------
+2019-03-10 11:31:51,792 [INFO] Summary:
+2019-03-10 11:31:51,793 [INFO] Batch 70000, worst loss 0.029575 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 11:31:51,793 [INFO] Regularization: 9740.738281 * 0.0000000100 = 0.0000974074 loss
+2019-03-10 11:31:51,794 [INFO] unfolding 0, single step 70001
+2019-03-10 11:31:51,794 [INFO] Sum of grad norms of most recent batch: 0.426322
+2019-03-10 11:31:51,795 [INFO] ---------------------------------
+2019-03-10 11:32:05,181 [INFO] ---------------------------------
+2019-03-10 11:32:05,183 [INFO] Evaluation:
+2019-03-10 11:32:05,184 [INFO] Batch 70000, worst loss 0.032301 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 11:32:05,184 [INFO] ---------------------------------
+2019-03-10 11:32:29,464 [INFO] ---------------------------------
+2019-03-10 11:32:29,465 [INFO] Summary:
+2019-03-10 11:32:29,465 [INFO] Batch 71000, worst loss 0.017380 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 11:32:29,466 [INFO] Regularization: 9255.406250 * 0.0000000100 = 0.0000925541 loss
+2019-03-10 11:32:29,467 [INFO] unfolding 0, single step 71001
+2019-03-10 11:32:29,467 [INFO] Sum of grad norms of most recent batch: 0.211706
+2019-03-10 11:32:29,468 [INFO] ---------------------------------
+2019-03-10 11:32:53,238 [INFO] ---------------------------------
+2019-03-10 11:32:53,239 [INFO] Summary:
+2019-03-10 11:32:53,240 [INFO] Batch 72000, worst loss 0.027960 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 11:32:53,240 [INFO] Regularization: 8854.286133 * 0.0000000100 = 0.0000885429 loss
+2019-03-10 11:32:53,241 [INFO] unfolding 0, single step 72001
+2019-03-10 11:32:53,241 [INFO] Sum of grad norms of most recent batch: 0.121555
+2019-03-10 11:32:53,242 [INFO] ---------------------------------
+2019-03-10 11:33:17,296 [INFO] ---------------------------------
+2019-03-10 11:33:17,297 [INFO] Summary:
+2019-03-10 11:33:17,297 [INFO] Batch 73000, worst loss 0.027025 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 11:33:17,298 [INFO] Regularization: 8435.825195 * 0.0000000100 = 0.0000843583 loss
+2019-03-10 11:33:17,298 [INFO] unfolding 0, single step 73001
+2019-03-10 11:33:17,299 [INFO] Sum of grad norms of most recent batch: 0.094047
+2019-03-10 11:33:17,299 [INFO] ---------------------------------
+2019-03-10 11:33:41,101 [INFO] ---------------------------------
+2019-03-10 11:33:41,102 [INFO] Summary:
+2019-03-10 11:33:41,103 [INFO] Batch 74000, worst loss 0.017352 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 11:33:41,104 [INFO] Regularization: 7971.198242 * 0.0000000100 = 0.0000797120 loss
+2019-03-10 11:33:41,104 [INFO] unfolding 0, single step 74001
+2019-03-10 11:33:41,105 [INFO] Sum of grad norms of most recent batch: 0.197922
+2019-03-10 11:33:41,106 [INFO] ---------------------------------
+2019-03-10 11:34:05,284 [INFO] ---------------------------------
+2019-03-10 11:34:05,285 [INFO] Summary:
+2019-03-10 11:34:05,286 [INFO] Batch 75000, worst loss 0.032171 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 11:34:05,286 [INFO] Regularization: 7563.895508 * 0.0000000100 = 0.0000756390 loss
+2019-03-10 11:34:05,287 [INFO] unfolding 0, single step 75001
+2019-03-10 11:34:05,288 [INFO] Sum of grad norms of most recent batch: 2.550052
+2019-03-10 11:34:05,288 [INFO] ---------------------------------
+2019-03-10 11:34:29,331 [INFO] ---------------------------------
+2019-03-10 11:34:29,332 [INFO] Summary:
+2019-03-10 11:34:29,332 [INFO] Batch 76000, worst loss 0.031923 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 11:34:29,333 [INFO] Regularization: 7161.464355 * 0.0000000100 = 0.0000716146 loss
+2019-03-10 11:34:29,334 [INFO] unfolding 0, single step 76001
+2019-03-10 11:34:29,335 [INFO] Sum of grad norms of most recent batch: 0.125595
+2019-03-10 11:34:29,336 [INFO] ---------------------------------
+2019-03-10 11:34:53,094 [INFO] ---------------------------------
+2019-03-10 11:34:53,095 [INFO] Summary:
+2019-03-10 11:34:53,096 [INFO] Batch 77000, worst loss 0.018851 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 11:34:53,096 [INFO] Regularization: 6714.695801 * 0.0000000100 = 0.0000671470 loss
+2019-03-10 11:34:53,097 [INFO] unfolding 0, single step 77001
+2019-03-10 11:34:53,097 [INFO] Sum of grad norms of most recent batch: 0.082214
+2019-03-10 11:34:53,098 [INFO] ---------------------------------
+2019-03-10 11:35:17,031 [INFO] ---------------------------------
+2019-03-10 11:35:17,032 [INFO] Summary:
+2019-03-10 11:35:17,032 [INFO] Batch 78000, worst loss 0.031556 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 11:35:17,033 [INFO] Regularization: 6289.561035 * 0.0000000100 = 0.0000628956 loss
+2019-03-10 11:35:17,034 [INFO] unfolding 0, single step 78001
+2019-03-10 11:35:17,035 [INFO] Sum of grad norms of most recent batch: 0.135259
+2019-03-10 11:35:17,035 [INFO] ---------------------------------
+2019-03-10 11:35:40,864 [INFO] ---------------------------------
+2019-03-10 11:35:40,865 [INFO] Summary:
+2019-03-10 11:35:40,865 [INFO] Batch 79000, worst loss 0.014832 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 11:35:40,866 [INFO] Regularization: 5902.337402 * 0.0000000100 = 0.0000590234 loss
+2019-03-10 11:35:40,867 [INFO] unfolding 0, single step 79001
+2019-03-10 11:35:40,867 [INFO] Sum of grad norms of most recent batch: 0.289909
+2019-03-10 11:35:40,868 [INFO] ---------------------------------
+2019-03-10 11:36:05,040 [INFO] ---------------------------------
+2019-03-10 11:36:05,041 [INFO] Summary:
+2019-03-10 11:36:05,042 [INFO] Batch 80000, worst loss 0.024859 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 11:36:05,043 [INFO] Regularization: 5563.797852 * 0.0000000100 = 0.0000556380 loss
+2019-03-10 11:36:05,043 [INFO] unfolding 0, single step 80001
+2019-03-10 11:36:05,044 [INFO] Sum of grad norms of most recent batch: 0.149290
+2019-03-10 11:36:05,045 [INFO] ---------------------------------
+2019-03-10 11:36:18,474 [INFO] ---------------------------------
+2019-03-10 11:36:18,476 [INFO] Evaluation:
+2019-03-10 11:36:18,476 [INFO] Batch 80000, worst loss 0.033112 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 11:36:18,480 [INFO] ---------------------------------
+2019-03-10 11:36:42,509 [INFO] ---------------------------------
+2019-03-10 11:36:42,509 [INFO] Summary:
+2019-03-10 11:36:42,510 [INFO] Batch 81000, worst loss 0.013519 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 11:36:42,511 [INFO] Regularization: 5264.560547 * 0.0000000100 = 0.0000526456 loss
+2019-03-10 11:36:42,511 [INFO] unfolding 0, single step 81001
+2019-03-10 11:36:42,512 [INFO] Sum of grad norms of most recent batch: 0.156313
+2019-03-10 11:36:42,513 [INFO] ---------------------------------
+2019-03-10 11:37:06,304 [INFO] ---------------------------------
+2019-03-10 11:37:06,305 [INFO] Summary:
+2019-03-10 11:37:06,305 [INFO] Batch 82000, worst loss 0.035757 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 11:37:06,306 [INFO] Regularization: 5069.340820 * 0.0000000100 = 0.0000506934 loss
+2019-03-10 11:37:06,306 [INFO] unfolding 0, single step 82001
+2019-03-10 11:37:06,307 [INFO] Sum of grad norms of most recent batch: 0.039741
+2019-03-10 11:37:06,307 [INFO] ---------------------------------
+2019-03-10 11:37:30,262 [INFO] ---------------------------------
+2019-03-10 11:37:30,263 [INFO] Summary:
+2019-03-10 11:37:30,264 [INFO] Batch 83000, worst loss 0.019896 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 11:37:30,264 [INFO] Regularization: 4868.772949 * 0.0000000100 = 0.0000486877 loss
+2019-03-10 11:37:30,264 [INFO] unfolding 0, single step 83001
+2019-03-10 11:37:30,265 [INFO] Sum of grad norms of most recent batch: 0.112472
+2019-03-10 11:37:30,266 [INFO] ---------------------------------
+2019-03-10 11:37:54,069 [INFO] ---------------------------------
+2019-03-10 11:37:54,070 [INFO] Summary:
+2019-03-10 11:37:54,071 [INFO] Batch 84000, worst loss 0.021144 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 11:37:54,072 [INFO] Regularization: 4666.124512 * 0.0000000100 = 0.0000466612 loss
+2019-03-10 11:37:54,072 [INFO] unfolding 0, single step 84001
+2019-03-10 11:37:54,073 [INFO] Sum of grad norms of most recent batch: 0.084140
+2019-03-10 11:37:54,074 [INFO] ---------------------------------
+2019-03-10 11:38:18,044 [INFO] ---------------------------------
+2019-03-10 11:38:18,045 [INFO] Summary:
+2019-03-10 11:38:18,045 [INFO] Batch 85000, worst loss 0.030934 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 11:38:18,046 [INFO] Regularization: 4461.055664 * 0.0000000100 = 0.0000446106 loss
+2019-03-10 11:38:18,047 [INFO] unfolding 0, single step 85001
+2019-03-10 11:38:18,048 [INFO] Sum of grad norms of most recent batch: 1.156544
+2019-03-10 11:38:18,049 [INFO] ---------------------------------
+2019-03-10 11:38:41,887 [INFO] ---------------------------------
+2019-03-10 11:38:41,888 [INFO] Summary:
+2019-03-10 11:38:41,888 [INFO] Batch 86000, worst loss 0.031052 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 11:38:41,889 [INFO] Regularization: 4221.738770 * 0.0000000100 = 0.0000422174 loss
+2019-03-10 11:38:41,889 [INFO] unfolding 0, single step 86001
+2019-03-10 11:38:41,890 [INFO] Sum of grad norms of most recent batch: 1.085751
+2019-03-10 11:38:41,891 [INFO] ---------------------------------
+2019-03-10 11:39:05,995 [INFO] ---------------------------------
+2019-03-10 11:39:05,996 [INFO] Summary:
+2019-03-10 11:39:05,997 [INFO] Batch 87000, worst loss 0.011531 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 11:39:05,998 [INFO] Regularization: 3988.700684 * 0.0000000100 = 0.0000398870 loss
+2019-03-10 11:39:05,998 [INFO] unfolding 0, single step 87001
+2019-03-10 11:39:05,999 [INFO] Sum of grad norms of most recent batch: 0.107282
+2019-03-10 11:39:06,000 [INFO] ---------------------------------
+2019-03-10 11:39:29,937 [INFO] ---------------------------------
+2019-03-10 11:39:29,938 [INFO] Summary:
+2019-03-10 11:39:29,938 [INFO] Batch 88000, worst loss 0.027435 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 11:39:29,940 [INFO] Regularization: 3780.137695 * 0.0000000100 = 0.0000378014 loss
+2019-03-10 11:39:29,940 [INFO] unfolding 0, single step 88001
+2019-03-10 11:39:29,941 [INFO] Sum of grad norms of most recent batch: 0.047406
+2019-03-10 11:39:29,942 [INFO] ---------------------------------
+2019-03-10 11:39:53,846 [INFO] ---------------------------------
+2019-03-10 11:39:53,847 [INFO] Summary:
+2019-03-10 11:39:53,847 [INFO] Batch 89000, worst loss 0.033082 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 11:39:53,848 [INFO] Regularization: 3572.676758 * 0.0000000100 = 0.0000357268 loss
+2019-03-10 11:39:53,849 [INFO] unfolding 0, single step 89001
+2019-03-10 11:39:53,849 [INFO] Sum of grad norms of most recent batch: 0.167092
+2019-03-10 11:39:53,850 [INFO] ---------------------------------
+2019-03-10 11:40:17,816 [INFO] ---------------------------------
+2019-03-10 11:40:17,817 [INFO] Summary:
+2019-03-10 11:40:17,818 [INFO] Batch 90000, worst loss 0.016374 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 11:40:17,818 [INFO] Regularization: 3360.107910 * 0.0000000100 = 0.0000336011 loss
+2019-03-10 11:40:17,819 [INFO] unfolding 0, single step 90001
+2019-03-10 11:40:17,819 [INFO] Sum of grad norms of most recent batch: 0.043197
+2019-03-10 11:40:17,820 [INFO] ---------------------------------
+2019-03-10 11:40:31,000 [INFO] ---------------------------------
+2019-03-10 11:40:31,001 [INFO] Evaluation:
+2019-03-10 11:40:31,001 [INFO] Batch 90000, worst loss 0.003374 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 11:40:31,004 [INFO] New best loss 0.003374, saved to file transition/1552212199/1552214431_0_transition_90000.pth
+2019-03-10 11:40:31,031 [INFO] Target
+2019-03-10 11:40:31,032 [INFO] [[0.5853   1.       0.       0.072917 0.5769   0.       0.020833 0.1      0.8     ]
+ [0.1647   1.       0.       0.010417 0.6162   0.010417 0.010417 0.35     0.6     ]
+ [0.0367   1.       0.       0.010417 0.8573   0.010417 0.020833 0.4      0.7     ]
+ [0.6363   0.       1.       0.333337 0.5492   0.       0.03125  0.4      0.6     ]
+ [0.2928   0.       1.       0.010417 0.3766   0.03125  0.03125  0.3      0.85    ]
+ [0.3775   1.       0.       0.010417 0.9277   0.020833 0.010417 0.35     0.85    ]
+ [0.3807   1.       0.       0.385417 0.8211   0.010417 0.010417 0.05     0.65    ]
+ [0.8889   0.       1.       0.666667 0.1805   0.03125  0.       0.25     0.7     ]
+ [0.2616   0.       1.       0.208337 0.0971   0.03125  0.020833 0.1      0.8     ]
+ [0.1535   1.       0.       0.604167 0.6279   0.       0.020833 0.1      0.6     ]
+ [0.3751   1.       0.       0.010417 0.914    0.010417 0.03125  0.4      0.6     ]
+ [0.5923   1.       0.       0.927087 0.9231   0.03125  0.020833 0.4      0.9     ]
+ [0.2686   1.       0.       0.010417 0.8781   0.020833 0.       0.15     0.6     ]
+ [0.8147   0.       1.       0.010417 0.3799   0.010417 0.020833 0.4      0.8     ]
+ [0.9773   0.       1.       0.739587 0.352    0.       0.       0.1      0.75    ]
+ [0.5369   0.       1.       0.802087 0.1365   0.020833 0.010417 0.1      0.7     ]
+ [0.3084   0.       1.       0.010417 0.1468   0.       0.03125  0.15     0.6     ]
+ [0.4774   0.       1.       0.072917 0.6937   0.020833 0.020833 0.35     0.75    ]
+ [0.937    1.       0.       0.885417 0.8788   0.       0.020833 0.35     0.95    ]
+ [0.4787   0.       1.       0.895837 0.5309   0.03125  0.020833 0.1      0.7     ]
+ [0.2954   1.       0.       0.145837 0.8085   0.020833 0.020833 0.25     0.65    ]
+ [0.3099   1.       0.       0.729167 0.7919   0.03125  0.020833 0.05     0.85    ]
+ [0.4686   0.       1.       0.510417 0.1994   0.010417 0.03125  0.35     0.9     ]
+ [0.365    0.       1.       0.010417 0.281    0.03125  0.020833 0.2      0.85    ]
+ [0.549    1.       0.       0.010417 0.9275   0.03125  0.010417 0.       0.85    ]
+ [0.3097   1.       0.       0.479167 0.5301   0.010417 0.020833 0.1      0.95    ]
+ [0.3852   1.       0.       0.281247 0.7701   0.03125  0.020833 0.1      0.7     ]
+ [0.4557   1.       0.       0.916667 0.6432   0.010417 0.       0.       0.6     ]
+ [0.1864   0.       1.       0.208337 0.4721   0.020833 0.03125  0.3      0.95    ]
+ [0.7394   1.       0.       0.010417 0.6571   0.       0.020833 0.15     0.75    ]
+ [0.3351   1.       0.       0.416667 0.2053   0.020833 0.010417 0.2      0.95    ]
+ [0.8652   0.       1.       0.020837 1.       0.010417 0.03125  0.2      0.65    ]]
+2019-03-10 11:40:31,040 [INFO] Estimator output
+2019-03-10 11:40:31,041 [INFO] [[ 0.585225  1.000407 -0.000407  0.072938  0.576991  0.000001  0.020833  0.1       0.800002]
+ [ 0.164686  1.000868 -0.000868  0.010752  0.615929  0.010416  0.010417  0.35      0.6     ]
+ [ 0.036634  1.000984 -0.000984  0.010536  0.857008  0.010415  0.020833  0.400001  0.7     ]
+ [ 0.636293  0.000118  0.999882  0.333377  0.549284  0.000003  0.03125   0.4       0.600001]
+ [ 0.292861  0.000814  0.999186  0.010368  0.376387  0.03125   0.03125   0.3       0.849996]
+ [ 0.377456  1.000695 -0.000695  0.010595  0.927426  0.020828  0.010417  0.349999  0.849996]
+ [ 0.380686  1.001448 -0.001448  0.385479  0.821123  0.010418  0.010417  0.05      0.650001]
+ [ 0.888846  0.001708  0.998292  0.666681  0.180494  0.03125   0.        0.25      0.7     ]
+ [ 0.261619  0.001341  0.998659  0.208392  0.097132  0.031252  0.020833  0.1       0.800002]
+ [ 0.15344   1.000974 -0.000974  0.604204  0.62786  -0.000001  0.020833  0.099999  0.599999]
+ [ 0.375046  1.000902 -0.000902  0.010416  0.91386   0.010415  0.03125   0.4       0.599998]
+ [ 0.592252  1.001088 -0.001088  0.927064  0.922953  0.031247  0.020833  0.399999  0.899999]
+ [ 0.268502  1.001129 -0.001129  0.010502  0.877928  0.02083  -0.        0.149999  0.599997]
+ [ 0.814657  0.002023  0.997977  0.010582  0.379753  0.010418  0.020833  0.4       0.8     ]
+ [ 0.977291  0.001692  0.998308  0.739629  0.351954  0.000001  0.        0.1       0.749999]
+ [ 0.536902  0.001563  0.998437  0.802     0.136586  0.020833  0.010417  0.099999  0.699997]
+ [ 0.308337  0.000255  0.999745  0.010514  0.14666   0.        0.03125   0.15      0.599999]
+ [ 0.477365 -0.001019  1.001019  0.072823  0.693849  0.020836  0.020833  0.35      0.750002]
+ [ 0.937016  1.001286 -0.001286  0.885392  0.878635 -0.000002  0.020833  0.35      0.949999]
+ [ 0.478725  0.001596  0.998404  0.895834  0.530853  0.03125   0.020833  0.1       0.699998]
+ [ 0.295352  1.001567 -0.001567  0.145916  0.808415  0.020835  0.020833  0.25      0.650002]
+ [ 0.309896  1.001926 -0.001926  0.728976  0.791728  0.031249  0.020833  0.05      0.85    ]
+ [ 0.468602  0.001797  0.998203  0.510411  0.199489  0.010417  0.03125   0.35      0.9     ]
+ [ 0.364922  0.000653  0.999347  0.010495  0.28076   0.031252  0.020833  0.2       0.849998]
+ [ 0.548976  0.999533  0.000467  0.010396  0.927412  0.031247  0.010417  0.        0.849998]
+ [ 0.309721  1.001273 -0.001273  0.479234  0.530116  0.010417  0.020833  0.100001  0.950001]
+ [ 0.385249  1.001509 -0.001509  0.281362  0.769976  0.031249  0.020833  0.1       0.700002]
+ [ 0.455709  1.001705 -0.001705  0.916716  0.643043  0.010416 -0.       -0.000001  0.599998]
+ [ 0.186398  0.002328  0.997672  0.208425  0.472146  0.020834  0.03125   0.3       0.950002]
+ [ 0.739391  1.001711 -0.001711  0.010551  0.657097 -0.000003  0.020833  0.15      0.749999]
+ [ 0.335091  1.000919 -0.000919  0.416755  0.205418  0.020834  0.010417  0.2       0.950001]
+ [ 0.865212  0.001297  0.998703  0.020836  1.024627  0.010421  0.03125   0.2       0.650003]]
+2019-03-10 11:40:31,049 [INFO] ---------------------------------
+2019-03-10 11:40:55,698 [INFO] ---------------------------------
+2019-03-10 11:40:55,698 [INFO] Summary:
+2019-03-10 11:40:55,699 [INFO] Batch 91000, worst loss 0.020749 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 11:40:55,700 [INFO] Regularization: 3152.201660 * 0.0000000100 = 0.0000315220 loss
+2019-03-10 11:40:55,700 [INFO] unfolding 0, single step 91001
+2019-03-10 11:40:55,701 [INFO] Sum of grad norms of most recent batch: 0.156087
+2019-03-10 11:40:55,702 [INFO] ---------------------------------
+2019-03-10 11:41:19,563 [INFO] ---------------------------------
+2019-03-10 11:41:19,564 [INFO] Summary:
+2019-03-10 11:41:19,564 [INFO] Batch 92000, worst loss 0.013713 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 11:41:19,565 [INFO] Regularization: 3044.258301 * 0.0000000100 = 0.0000304426 loss
+2019-03-10 11:41:19,566 [INFO] unfolding 0, single step 92001
+2019-03-10 11:41:19,567 [INFO] Sum of grad norms of most recent batch: 0.042445
+2019-03-10 11:41:19,567 [INFO] ---------------------------------
+2019-03-10 11:41:43,561 [INFO] ---------------------------------
+2019-03-10 11:41:43,562 [INFO] Summary:
+2019-03-10 11:41:43,563 [INFO] Batch 93000, worst loss 0.036798 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 11:41:43,563 [INFO] Regularization: 2953.818604 * 0.0000000100 = 0.0000295382 loss
+2019-03-10 11:41:43,564 [INFO] unfolding 0, single step 93001
+2019-03-10 11:41:43,564 [INFO] Sum of grad norms of most recent batch: 0.045805
+2019-03-10 11:41:43,565 [INFO] ---------------------------------
+2019-03-10 11:42:07,220 [INFO] ---------------------------------
+2019-03-10 11:42:07,221 [INFO] Summary:
+2019-03-10 11:42:07,222 [INFO] Batch 94000, worst loss 0.035141 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 11:42:07,222 [INFO] Regularization: 2880.752930 * 0.0000000100 = 0.0000288075 loss
+2019-03-10 11:42:07,223 [INFO] unfolding 0, single step 94001
+2019-03-10 11:42:07,223 [INFO] Sum of grad norms of most recent batch: 0.036127
+2019-03-10 11:42:07,224 [INFO] ---------------------------------
+2019-03-10 11:42:31,266 [INFO] ---------------------------------
+2019-03-10 11:42:31,268 [INFO] Summary:
+2019-03-10 11:42:31,268 [INFO] Batch 95000, worst loss 0.020139 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 11:42:31,269 [INFO] Regularization: 2817.849854 * 0.0000000100 = 0.0000281785 loss
+2019-03-10 11:42:31,270 [INFO] unfolding 0, single step 95001
+2019-03-10 11:42:31,271 [INFO] Sum of grad norms of most recent batch: 0.038795
+2019-03-10 11:42:31,272 [INFO] ---------------------------------
+2019-03-10 11:42:55,096 [INFO] ---------------------------------
+2019-03-10 11:42:55,097 [INFO] Summary:
+2019-03-10 11:42:55,098 [INFO] Batch 96000, worst loss 0.022850 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 11:42:55,099 [INFO] Regularization: 2758.100342 * 0.0000000100 = 0.0000275810 loss
+2019-03-10 11:42:55,099 [INFO] unfolding 0, single step 96001
+2019-03-10 11:42:55,100 [INFO] Sum of grad norms of most recent batch: 0.077690
+2019-03-10 11:42:55,100 [INFO] ---------------------------------
+2019-03-10 11:43:19,265 [INFO] ---------------------------------
+2019-03-10 11:43:19,266 [INFO] Summary:
+2019-03-10 11:43:19,266 [INFO] Batch 97000, worst loss 0.016938 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 11:43:19,267 [INFO] Regularization: 2694.708252 * 0.0000000100 = 0.0000269471 loss
+2019-03-10 11:43:19,267 [INFO] unfolding 0, single step 97001
+2019-03-10 11:43:19,268 [INFO] Sum of grad norms of most recent batch: 0.069279
+2019-03-10 11:43:19,268 [INFO] ---------------------------------
+2019-03-10 11:43:43,151 [INFO] ---------------------------------
+2019-03-10 11:43:43,152 [INFO] Summary:
+2019-03-10 11:43:43,153 [INFO] Batch 98000, worst loss 0.009895 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 11:43:43,154 [INFO] Regularization: 2631.050537 * 0.0000000100 = 0.0000263105 loss
+2019-03-10 11:43:43,154 [INFO] unfolding 0, single step 98001
+2019-03-10 11:43:43,155 [INFO] Sum of grad norms of most recent batch: 0.052119
+2019-03-10 11:43:43,156 [INFO] ---------------------------------
+2019-03-10 11:44:07,297 [INFO] ---------------------------------
+2019-03-10 11:44:07,298 [INFO] Summary:
+2019-03-10 11:44:07,299 [INFO] Batch 99000, worst loss 0.011903 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 11:44:07,300 [INFO] Regularization: 2561.782715 * 0.0000000100 = 0.0000256178 loss
+2019-03-10 11:44:07,300 [INFO] unfolding 0, single step 99001
+2019-03-10 11:44:07,301 [INFO] Sum of grad norms of most recent batch: 0.054596
+2019-03-10 11:44:07,302 [INFO] ---------------------------------
+2019-03-10 11:44:31,239 [INFO] ---------------------------------
+2019-03-10 11:44:31,240 [INFO] Summary:
+2019-03-10 11:44:31,241 [INFO] Batch 100000, worst loss 0.011785 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 11:44:31,242 [INFO] Regularization: 2502.236328 * 0.0000000100 = 0.0000250224 loss
+2019-03-10 11:44:31,242 [INFO] unfolding 0, single step 100001
+2019-03-10 11:44:31,243 [INFO] Sum of grad norms of most recent batch: 0.045939
+2019-03-10 11:44:31,243 [INFO] ---------------------------------
+2019-03-10 11:44:44,278 [INFO] ---------------------------------
+2019-03-10 11:44:44,283 [INFO] Evaluation:
+2019-03-10 11:44:44,283 [INFO] Batch 100000, worst loss 0.033682 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 11:44:44,284 [INFO] ---------------------------------
+2019-03-10 11:45:08,404 [INFO] ---------------------------------
+2019-03-10 11:45:08,405 [INFO] Summary:
+2019-03-10 11:45:08,405 [INFO] Batch 101000, worst loss 0.028557 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 11:45:08,406 [INFO] Regularization: 2448.250244 * 0.0000000100 = 0.0000244825 loss
+2019-03-10 11:45:08,406 [INFO] unfolding 0, single step 101001
+2019-03-10 11:45:08,407 [INFO] Sum of grad norms of most recent batch: 0.076910
+2019-03-10 11:45:08,408 [INFO] ---------------------------------
+2019-03-10 11:45:32,254 [INFO] ---------------------------------
+2019-03-10 11:45:32,255 [INFO] Summary:
+2019-03-10 11:45:32,255 [INFO] Batch 102000, worst loss 0.024034 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 11:45:32,256 [INFO] Regularization: 2412.595703 * 0.0000000100 = 0.0000241260 loss
+2019-03-10 11:45:32,256 [INFO] unfolding 0, single step 102001
+2019-03-10 11:45:32,257 [INFO] Sum of grad norms of most recent batch: 0.026568
+2019-03-10 11:45:32,257 [INFO] ---------------------------------
+2019-03-10 11:45:56,282 [INFO] ---------------------------------
+2019-03-10 11:45:56,283 [INFO] Summary:
+2019-03-10 11:45:56,283 [INFO] Batch 103000, worst loss 0.018005 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 11:45:56,284 [INFO] Regularization: 2382.414551 * 0.0000000100 = 0.0000238241 loss
+2019-03-10 11:45:56,284 [INFO] unfolding 0, single step 103001
+2019-03-10 11:45:56,285 [INFO] Sum of grad norms of most recent batch: 0.026665
+2019-03-10 11:45:56,286 [INFO] ---------------------------------
+2019-03-10 11:46:20,334 [INFO] ---------------------------------
+2019-03-10 11:46:20,335 [INFO] Summary:
+2019-03-10 11:46:20,335 [INFO] Batch 104000, worst loss 0.023700 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 11:46:20,336 [INFO] Regularization: 2356.778320 * 0.0000000100 = 0.0000235678 loss
+2019-03-10 11:46:20,336 [INFO] unfolding 0, single step 104001
+2019-03-10 11:46:20,337 [INFO] Sum of grad norms of most recent batch: 0.024294
+2019-03-10 11:46:20,338 [INFO] ---------------------------------
+2019-03-10 11:46:43,926 [INFO] ---------------------------------
+2019-03-10 11:46:43,927 [INFO] Summary:
+2019-03-10 11:46:43,927 [INFO] Batch 105000, worst loss 0.022236 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 11:46:43,928 [INFO] Regularization: 2330.906494 * 0.0000000100 = 0.0000233091 loss
+2019-03-10 11:46:43,928 [INFO] unfolding 0, single step 105001
+2019-03-10 11:46:43,929 [INFO] Sum of grad norms of most recent batch: 0.013306
+2019-03-10 11:46:43,930 [INFO] ---------------------------------
+2019-03-10 11:47:07,620 [INFO] ---------------------------------
+2019-03-10 11:47:07,621 [INFO] Summary:
+2019-03-10 11:47:07,621 [INFO] Batch 106000, worst loss 0.024568 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 11:47:07,622 [INFO] Regularization: 2303.646729 * 0.0000000100 = 0.0000230365 loss
+2019-03-10 11:47:07,623 [INFO] unfolding 0, single step 106001
+2019-03-10 11:47:07,624 [INFO] Sum of grad norms of most recent batch: 0.031556
+2019-03-10 11:47:07,624 [INFO] ---------------------------------
+2019-03-10 11:47:31,632 [INFO] ---------------------------------
+2019-03-10 11:47:31,634 [INFO] Summary:
+2019-03-10 11:47:31,634 [INFO] Batch 107000, worst loss 0.027980 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 11:47:31,635 [INFO] Regularization: 2284.883545 * 0.0000000100 = 0.0000228488 loss
+2019-03-10 11:47:31,636 [INFO] unfolding 0, single step 107001
+2019-03-10 11:47:31,637 [INFO] Sum of grad norms of most recent batch: 0.148227
+2019-03-10 11:47:31,640 [INFO] ---------------------------------
+2019-03-10 11:47:55,883 [INFO] ---------------------------------
+2019-03-10 11:47:55,884 [INFO] Summary:
+2019-03-10 11:47:55,885 [INFO] Batch 108000, worst loss 0.027945 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 11:47:55,886 [INFO] Regularization: 2264.505371 * 0.0000000100 = 0.0000226451 loss
+2019-03-10 11:47:55,886 [INFO] unfolding 0, single step 108001
+2019-03-10 11:47:55,887 [INFO] Sum of grad norms of most recent batch: 0.013252
+2019-03-10 11:47:55,888 [INFO] ---------------------------------
+2019-03-10 11:48:19,847 [INFO] ---------------------------------
+2019-03-10 11:48:19,848 [INFO] Summary:
+2019-03-10 11:48:19,848 [INFO] Batch 109000, worst loss 0.020489 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 11:48:19,849 [INFO] Regularization: 2244.604980 * 0.0000000100 = 0.0000224460 loss
+2019-03-10 11:48:19,849 [INFO] unfolding 0, single step 109001
+2019-03-10 11:48:19,850 [INFO] Sum of grad norms of most recent batch: 0.169953
+2019-03-10 11:48:19,850 [INFO] ---------------------------------
+2019-03-10 11:48:43,785 [INFO] ---------------------------------
+2019-03-10 11:48:43,786 [INFO] Summary:
+2019-03-10 11:48:43,787 [INFO] Batch 110000, worst loss 0.026874 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 11:48:43,788 [INFO] Regularization: 2223.518555 * 0.0000000100 = 0.0000222352 loss
+2019-03-10 11:48:43,788 [INFO] unfolding 0, single step 110001
+2019-03-10 11:48:43,789 [INFO] Sum of grad norms of most recent batch: 0.101367
+2019-03-10 11:48:43,790 [INFO] ---------------------------------
+2019-03-10 11:48:56,912 [INFO] ---------------------------------
+2019-03-10 11:48:56,913 [INFO] Evaluation:
+2019-03-10 11:48:56,914 [INFO] Batch 110000, worst loss 0.026619 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 11:48:56,915 [INFO] ---------------------------------
+2019-03-10 11:49:21,272 [INFO] ---------------------------------
+2019-03-10 11:49:21,273 [INFO] Summary:
+2019-03-10 11:49:21,273 [INFO] Batch 111000, worst loss 0.019677 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 11:49:21,274 [INFO] Regularization: 2207.220215 * 0.0000000100 = 0.0000220722 loss
+2019-03-10 11:49:21,274 [INFO] unfolding 0, single step 111001
+2019-03-10 11:49:21,275 [INFO] Sum of grad norms of most recent batch: 1.785573
+2019-03-10 11:49:21,275 [INFO] ---------------------------------
+2019-03-10 11:49:45,128 [INFO] ---------------------------------
+2019-03-10 11:49:45,129 [INFO] Summary:
+2019-03-10 11:49:45,130 [INFO] Batch 112000, worst loss 0.035395 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 11:49:45,130 [INFO] Regularization: 2199.162109 * 0.0000000100 = 0.0000219916 loss
+2019-03-10 11:49:45,131 [INFO] unfolding 0, single step 112001
+2019-03-10 11:49:45,131 [INFO] Sum of grad norms of most recent batch: 0.036572
+2019-03-10 11:49:45,132 [INFO] ---------------------------------
+2019-03-10 11:50:09,094 [INFO] ---------------------------------
+2019-03-10 11:50:09,096 [INFO] Summary:
+2019-03-10 11:50:09,096 [INFO] Batch 113000, worst loss 0.016970 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 11:50:09,097 [INFO] Regularization: 2189.240967 * 0.0000000100 = 0.0000218924 loss
+2019-03-10 11:50:09,097 [INFO] unfolding 0, single step 113001
+2019-03-10 11:50:09,098 [INFO] Sum of grad norms of most recent batch: 0.116057
+2019-03-10 11:50:09,098 [INFO] ---------------------------------
+2019-03-10 11:50:32,732 [INFO] ---------------------------------
+2019-03-10 11:50:32,733 [INFO] Summary:
+2019-03-10 11:50:32,733 [INFO] Batch 114000, worst loss 0.029648 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 11:50:32,733 [INFO] Regularization: 2179.042969 * 0.0000000100 = 0.0000217904 loss
+2019-03-10 11:50:32,734 [INFO] unfolding 0, single step 114001
+2019-03-10 11:50:32,735 [INFO] Sum of grad norms of most recent batch: 0.010930
+2019-03-10 11:50:32,736 [INFO] ---------------------------------
+2019-03-10 11:50:56,652 [INFO] ---------------------------------
+2019-03-10 11:50:56,653 [INFO] Summary:
+2019-03-10 11:50:56,654 [INFO] Batch 115000, worst loss 0.031242 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 11:50:56,655 [INFO] Regularization: 2169.653809 * 0.0000000100 = 0.0000216965 loss
+2019-03-10 11:50:56,655 [INFO] unfolding 0, single step 115001
+2019-03-10 11:50:56,656 [INFO] Sum of grad norms of most recent batch: 0.025987
+2019-03-10 11:50:56,657 [INFO] ---------------------------------
+2019-03-10 11:51:20,436 [INFO] ---------------------------------
+2019-03-10 11:51:20,437 [INFO] Summary:
+2019-03-10 11:51:20,438 [INFO] Batch 116000, worst loss 0.030976 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 11:51:20,439 [INFO] Regularization: 2159.938721 * 0.0000000100 = 0.0000215994 loss
+2019-03-10 11:51:20,439 [INFO] unfolding 0, single step 116001
+2019-03-10 11:51:20,440 [INFO] Sum of grad norms of most recent batch: 1.055800
+2019-03-10 11:51:20,440 [INFO] ---------------------------------
+2019-03-10 11:51:44,463 [INFO] ---------------------------------
+2019-03-10 11:51:44,464 [INFO] Summary:
+2019-03-10 11:51:44,464 [INFO] Batch 117000, worst loss 0.018822 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 11:51:44,465 [INFO] Regularization: 2150.676514 * 0.0000000100 = 0.0000215068 loss
+2019-03-10 11:51:44,465 [INFO] unfolding 0, single step 117001
+2019-03-10 11:51:44,466 [INFO] Sum of grad norms of most recent batch: 0.015912
+2019-03-10 11:51:44,467 [INFO] ---------------------------------
+2019-03-10 11:52:08,692 [INFO] ---------------------------------
+2019-03-10 11:52:08,693 [INFO] Summary:
+2019-03-10 11:52:08,694 [INFO] Batch 118000, worst loss 0.019172 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 11:52:08,695 [INFO] Regularization: 2141.014648 * 0.0000000100 = 0.0000214101 loss
+2019-03-10 11:52:08,695 [INFO] unfolding 0, single step 118001
+2019-03-10 11:52:08,696 [INFO] Sum of grad norms of most recent batch: 0.027459
+2019-03-10 11:52:08,697 [INFO] ---------------------------------
+2019-03-10 11:52:33,111 [INFO] ---------------------------------
+2019-03-10 11:52:33,112 [INFO] Summary:
+2019-03-10 11:52:33,113 [INFO] Batch 119000, worst loss 0.036958 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 11:52:33,114 [INFO] Regularization: 2132.367920 * 0.0000000100 = 0.0000213237 loss
+2019-03-10 11:52:33,114 [INFO] unfolding 0, single step 119001
+2019-03-10 11:52:33,115 [INFO] Sum of grad norms of most recent batch: 0.047408
+2019-03-10 11:52:33,116 [INFO] ---------------------------------
+2019-03-10 11:52:57,485 [INFO] ---------------------------------
+2019-03-10 11:52:57,486 [INFO] Summary:
+2019-03-10 11:52:57,487 [INFO] Batch 120000, worst loss 0.029740 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 11:52:57,487 [INFO] Regularization: 2121.749023 * 0.0000000100 = 0.0000212175 loss
+2019-03-10 11:52:57,488 [INFO] unfolding 0, single step 120001
+2019-03-10 11:52:57,488 [INFO] Sum of grad norms of most recent batch: 0.018484
+2019-03-10 11:52:57,489 [INFO] ---------------------------------
+2019-03-10 11:53:10,526 [INFO] ---------------------------------
+2019-03-10 11:53:10,527 [INFO] Evaluation:
+2019-03-10 11:53:10,528 [INFO] Batch 120000, worst loss 0.021320 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 11:53:10,528 [INFO] ---------------------------------
+2019-03-10 11:53:34,324 [INFO] ---------------------------------
+2019-03-10 11:53:34,325 [INFO] Summary:
+2019-03-10 11:53:34,326 [INFO] Batch 121000, worst loss 0.014902 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 11:53:34,326 [INFO] Regularization: 2110.724365 * 0.0000000100 = 0.0000211072 loss
+2019-03-10 11:53:34,327 [INFO] unfolding 0, single step 121001
+2019-03-10 11:53:34,327 [INFO] Sum of grad norms of most recent batch: 0.013968
+2019-03-10 11:53:34,328 [INFO] ---------------------------------
+2019-03-10 11:53:58,333 [INFO] ---------------------------------
+2019-03-10 11:53:58,334 [INFO] Summary:
+2019-03-10 11:53:58,334 [INFO] Batch 122000, worst loss 0.006877 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 11:53:58,335 [INFO] Regularization: 2104.639648 * 0.0000000100 = 0.0000210464 loss
+2019-03-10 11:53:58,335 [INFO] unfolding 0, single step 122001
+2019-03-10 11:53:58,336 [INFO] Sum of grad norms of most recent batch: 0.013478
+2019-03-10 11:53:58,337 [INFO] ---------------------------------
+2019-03-10 11:54:21,916 [INFO] ---------------------------------
+2019-03-10 11:54:21,917 [INFO] Summary:
+2019-03-10 11:54:21,917 [INFO] Batch 123000, worst loss 0.018059 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 11:54:21,918 [INFO] Regularization: 2098.967529 * 0.0000000100 = 0.0000209897 loss
+2019-03-10 11:54:21,919 [INFO] unfolding 0, single step 123001
+2019-03-10 11:54:21,920 [INFO] Sum of grad norms of most recent batch: 0.008740
+2019-03-10 11:54:21,920 [INFO] ---------------------------------
+2019-03-10 11:54:45,741 [INFO] ---------------------------------
+2019-03-10 11:54:45,742 [INFO] Summary:
+2019-03-10 11:54:45,743 [INFO] Batch 124000, worst loss 0.026098 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 11:54:45,743 [INFO] Regularization: 2091.990234 * 0.0000000100 = 0.0000209199 loss
+2019-03-10 11:54:45,744 [INFO] unfolding 0, single step 124001
+2019-03-10 11:54:45,745 [INFO] Sum of grad norms of most recent batch: 0.009074
+2019-03-10 11:54:45,746 [INFO] ---------------------------------
+2019-03-10 11:55:09,604 [INFO] ---------------------------------
+2019-03-10 11:55:09,605 [INFO] Summary:
+2019-03-10 11:55:09,606 [INFO] Batch 125000, worst loss 0.026041 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 11:55:09,606 [INFO] Regularization: 2085.747070 * 0.0000000100 = 0.0000208575 loss
+2019-03-10 11:55:09,607 [INFO] unfolding 0, single step 125001
+2019-03-10 11:55:09,608 [INFO] Sum of grad norms of most recent batch: 0.013061
+2019-03-10 11:55:09,609 [INFO] ---------------------------------
+2019-03-10 11:55:33,289 [INFO] ---------------------------------
+2019-03-10 11:55:33,290 [INFO] Summary:
+2019-03-10 11:55:33,290 [INFO] Batch 126000, worst loss 0.032191 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 11:55:33,291 [INFO] Regularization: 2078.094482 * 0.0000000100 = 0.0000207809 loss
+2019-03-10 11:55:33,292 [INFO] unfolding 0, single step 126001
+2019-03-10 11:55:33,293 [INFO] Sum of grad norms of most recent batch: 0.015019
+2019-03-10 11:55:33,293 [INFO] ---------------------------------
+2019-03-10 11:55:57,118 [INFO] ---------------------------------
+2019-03-10 11:55:57,119 [INFO] Summary:
+2019-03-10 11:55:57,119 [INFO] Batch 127000, worst loss 0.028410 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 11:55:57,120 [INFO] Regularization: 2071.055664 * 0.0000000100 = 0.0000207106 loss
+2019-03-10 11:55:57,120 [INFO] unfolding 0, single step 127001
+2019-03-10 11:55:57,121 [INFO] Sum of grad norms of most recent batch: 0.017753
+2019-03-10 11:55:57,122 [INFO] ---------------------------------
+2019-03-10 11:56:21,202 [INFO] ---------------------------------
+2019-03-10 11:56:21,203 [INFO] Summary:
+2019-03-10 11:56:21,204 [INFO] Batch 128000, worst loss 0.028297 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 11:56:21,205 [INFO] Regularization: 2065.102295 * 0.0000000100 = 0.0000206510 loss
+2019-03-10 11:56:21,205 [INFO] unfolding 0, single step 128001
+2019-03-10 11:56:21,206 [INFO] Sum of grad norms of most recent batch: 0.033379
+2019-03-10 11:56:21,206 [INFO] ---------------------------------
+2019-03-10 11:56:45,046 [INFO] ---------------------------------
+2019-03-10 11:56:45,047 [INFO] Summary:
+2019-03-10 11:56:45,047 [INFO] Batch 129000, worst loss 0.034978 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 11:56:45,048 [INFO] Regularization: 2058.420898 * 0.0000000100 = 0.0000205842 loss
+2019-03-10 11:56:45,048 [INFO] unfolding 0, single step 129001
+2019-03-10 11:56:45,049 [INFO] Sum of grad norms of most recent batch: 0.026966
+2019-03-10 11:56:45,049 [INFO] ---------------------------------
+2019-03-10 11:57:08,756 [INFO] ---------------------------------
+2019-03-10 11:57:08,757 [INFO] Summary:
+2019-03-10 11:57:08,757 [INFO] Batch 130000, worst loss 0.032271 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 11:57:08,758 [INFO] Regularization: 2051.744629 * 0.0000000100 = 0.0000205174 loss
+2019-03-10 11:57:08,759 [INFO] unfolding 0, single step 130001
+2019-03-10 11:57:08,759 [INFO] Sum of grad norms of most recent batch: 0.008222
+2019-03-10 11:57:08,760 [INFO] ---------------------------------
+2019-03-10 11:57:21,859 [INFO] ---------------------------------
+2019-03-10 11:57:21,860 [INFO] Evaluation:
+2019-03-10 11:57:21,862 [INFO] Batch 130000, worst loss 0.020157 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 11:57:21,862 [INFO] ---------------------------------
+2019-03-10 11:57:45,706 [INFO] ---------------------------------
+2019-03-10 11:57:45,707 [INFO] Summary:
+2019-03-10 11:57:45,708 [INFO] Batch 131000, worst loss 0.046367 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 11:57:45,708 [INFO] Regularization: 2044.090332 * 0.0000000100 = 0.0000204409 loss
+2019-03-10 11:57:45,709 [INFO] unfolding 0, single step 131001
+2019-03-10 11:57:45,709 [INFO] Sum of grad norms of most recent batch: 0.068728
+2019-03-10 11:57:45,710 [INFO] ---------------------------------
+2019-03-10 11:58:09,606 [INFO] ---------------------------------
+2019-03-10 11:58:09,607 [INFO] Summary:
+2019-03-10 11:58:09,608 [INFO] Batch 132000, worst loss 0.013066 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 11:58:09,608 [INFO] Regularization: 2041.395874 * 0.0000000100 = 0.0000204140 loss
+2019-03-10 11:58:09,609 [INFO] unfolding 0, single step 132001
+2019-03-10 11:58:09,610 [INFO] Sum of grad norms of most recent batch: 0.016796
+2019-03-10 11:58:09,610 [INFO] ---------------------------------
+2019-03-10 11:58:33,605 [INFO] ---------------------------------
+2019-03-10 11:58:33,606 [INFO] Summary:
+2019-03-10 11:58:33,606 [INFO] Batch 133000, worst loss 0.017592 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 11:58:33,607 [INFO] Regularization: 2039.268921 * 0.0000000100 = 0.0000203927 loss
+2019-03-10 11:58:33,608 [INFO] unfolding 0, single step 133001
+2019-03-10 11:58:33,609 [INFO] Sum of grad norms of most recent batch: 0.018428
+2019-03-10 11:58:33,610 [INFO] ---------------------------------
+2019-03-10 11:58:57,483 [INFO] ---------------------------------
+2019-03-10 11:58:57,484 [INFO] Summary:
+2019-03-10 11:58:57,485 [INFO] Batch 134000, worst loss 0.026924 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 11:58:57,485 [INFO] Regularization: 2037.269531 * 0.0000000100 = 0.0000203727 loss
+2019-03-10 11:58:57,486 [INFO] unfolding 0, single step 134001
+2019-03-10 11:58:57,486 [INFO] Sum of grad norms of most recent batch: 0.011555
+2019-03-10 11:58:57,487 [INFO] ---------------------------------
+2019-03-10 11:59:21,404 [INFO] ---------------------------------
+2019-03-10 11:59:21,405 [INFO] Summary:
+2019-03-10 11:59:21,405 [INFO] Batch 135000, worst loss 0.024597 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 11:59:21,406 [INFO] Regularization: 2034.691650 * 0.0000000100 = 0.0000203469 loss
+2019-03-10 11:59:21,406 [INFO] unfolding 0, single step 135001
+2019-03-10 11:59:21,407 [INFO] Sum of grad norms of most recent batch: 0.012025
+2019-03-10 11:59:21,408 [INFO] ---------------------------------
+2019-03-10 11:59:45,185 [INFO] ---------------------------------
+2019-03-10 11:59:45,186 [INFO] Summary:
+2019-03-10 11:59:45,187 [INFO] Batch 136000, worst loss 0.024064 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 11:59:45,188 [INFO] Regularization: 2032.291992 * 0.0000000100 = 0.0000203229 loss
+2019-03-10 11:59:45,188 [INFO] unfolding 0, single step 136001
+2019-03-10 11:59:45,189 [INFO] Sum of grad norms of most recent batch: 0.003958
+2019-03-10 11:59:45,189 [INFO] ---------------------------------
+2019-03-10 12:00:09,423 [INFO] ---------------------------------
+2019-03-10 12:00:09,424 [INFO] Summary:
+2019-03-10 12:00:09,425 [INFO] Batch 137000, worst loss 0.024413 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 12:00:09,426 [INFO] Regularization: 2029.722900 * 0.0000000100 = 0.0000202972 loss
+2019-03-10 12:00:09,426 [INFO] unfolding 0, single step 137001
+2019-03-10 12:00:09,427 [INFO] Sum of grad norms of most recent batch: 0.019167
+2019-03-10 12:00:09,428 [INFO] ---------------------------------
+2019-03-10 12:00:33,244 [INFO] ---------------------------------
+2019-03-10 12:00:33,245 [INFO] Summary:
+2019-03-10 12:00:33,246 [INFO] Batch 138000, worst loss 0.006736 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 12:00:33,246 [INFO] Regularization: 2027.695190 * 0.0000000100 = 0.0000202770 loss
+2019-03-10 12:00:33,247 [INFO] unfolding 0, single step 138001
+2019-03-10 12:00:33,249 [INFO] Sum of grad norms of most recent batch: 0.006207
+2019-03-10 12:00:33,249 [INFO] ---------------------------------
+2019-03-10 12:00:57,356 [INFO] ---------------------------------
+2019-03-10 12:00:57,357 [INFO] Summary:
+2019-03-10 12:00:57,358 [INFO] Batch 139000, worst loss 0.023471 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 12:00:57,358 [INFO] Regularization: 2025.409424 * 0.0000000100 = 0.0000202541 loss
+2019-03-10 12:00:57,359 [INFO] unfolding 0, single step 139001
+2019-03-10 12:00:57,360 [INFO] Sum of grad norms of most recent batch: 0.006414
+2019-03-10 12:00:57,360 [INFO] ---------------------------------
+2019-03-10 12:01:21,335 [INFO] ---------------------------------
+2019-03-10 12:01:21,336 [INFO] Summary:
+2019-03-10 12:01:21,337 [INFO] Batch 140000, worst loss 0.032382 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 12:01:21,338 [INFO] Regularization: 2023.618530 * 0.0000000100 = 0.0000202362 loss
+2019-03-10 12:01:21,338 [INFO] unfolding 0, single step 140001
+2019-03-10 12:01:21,339 [INFO] Sum of grad norms of most recent batch: 0.014640
+2019-03-10 12:01:21,340 [INFO] ---------------------------------
+2019-03-10 12:01:34,427 [INFO] ---------------------------------
+2019-03-10 12:01:34,428 [INFO] Evaluation:
+2019-03-10 12:01:34,429 [INFO] Batch 140000, worst loss 0.037038 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 12:01:34,429 [INFO] ---------------------------------
+2019-03-10 12:01:58,213 [INFO] ---------------------------------
+2019-03-10 12:01:58,214 [INFO] Summary:
+2019-03-10 12:01:58,215 [INFO] Batch 141000, worst loss 0.020516 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 12:01:58,216 [INFO] Regularization: 2022.060791 * 0.0000000100 = 0.0000202206 loss
+2019-03-10 12:01:58,216 [INFO] unfolding 0, single step 141001
+2019-03-10 12:01:58,217 [INFO] Sum of grad norms of most recent batch: 0.010206
+2019-03-10 12:01:58,218 [INFO] ---------------------------------
+2019-03-10 12:02:22,150 [INFO] ---------------------------------
+2019-03-10 12:02:22,151 [INFO] Summary:
+2019-03-10 12:02:22,151 [INFO] Batch 142000, worst loss 0.016882 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 12:02:22,152 [INFO] Regularization: 2021.104004 * 0.0000000100 = 0.0000202110 loss
+2019-03-10 12:02:22,152 [INFO] unfolding 0, single step 142001
+2019-03-10 12:02:22,153 [INFO] Sum of grad norms of most recent batch: 0.017252
+2019-03-10 12:02:22,154 [INFO] ---------------------------------
+2019-03-10 12:02:46,146 [INFO] ---------------------------------
+2019-03-10 12:02:46,147 [INFO] Summary:
+2019-03-10 12:02:46,148 [INFO] Batch 143000, worst loss 0.022085 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 12:02:46,148 [INFO] Regularization: 2020.192871 * 0.0000000100 = 0.0000202019 loss
+2019-03-10 12:02:46,149 [INFO] unfolding 0, single step 143001
+2019-03-10 12:02:46,150 [INFO] Sum of grad norms of most recent batch: 0.008392
+2019-03-10 12:02:46,150 [INFO] ---------------------------------
+2019-03-10 12:03:10,113 [INFO] ---------------------------------
+2019-03-10 12:03:10,114 [INFO] Summary:
+2019-03-10 12:03:10,114 [INFO] Batch 144000, worst loss 0.028450 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 12:03:10,115 [INFO] Regularization: 2019.128174 * 0.0000000100 = 0.0000201913 loss
+2019-03-10 12:03:10,116 [INFO] unfolding 0, single step 144001
+2019-03-10 12:03:10,116 [INFO] Sum of grad norms of most recent batch: 0.012979
+2019-03-10 12:03:10,117 [INFO] ---------------------------------
+2019-03-10 12:03:33,973 [INFO] ---------------------------------
+2019-03-10 12:03:33,974 [INFO] Summary:
+2019-03-10 12:03:33,975 [INFO] Batch 145000, worst loss 0.025101 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 12:03:33,976 [INFO] Regularization: 2018.105835 * 0.0000000100 = 0.0000201811 loss
+2019-03-10 12:03:33,976 [INFO] unfolding 0, single step 145001
+2019-03-10 12:03:33,977 [INFO] Sum of grad norms of most recent batch: 0.009231
+2019-03-10 12:03:33,978 [INFO] ---------------------------------
+2019-03-10 12:03:57,994 [INFO] ---------------------------------
+2019-03-10 12:03:57,995 [INFO] Summary:
+2019-03-10 12:03:57,995 [INFO] Batch 146000, worst loss 0.025034 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 12:03:57,996 [INFO] Regularization: 2017.125244 * 0.0000000100 = 0.0000201713 loss
+2019-03-10 12:03:57,996 [INFO] unfolding 0, single step 146001
+2019-03-10 12:03:57,997 [INFO] Sum of grad norms of most recent batch: 0.008856
+2019-03-10 12:03:57,997 [INFO] ---------------------------------
+2019-03-10 12:04:21,704 [INFO] ---------------------------------
+2019-03-10 12:04:21,704 [INFO] Summary:
+2019-03-10 12:04:21,705 [INFO] Batch 147000, worst loss 0.027059 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 12:04:21,706 [INFO] Regularization: 2016.128540 * 0.0000000100 = 0.0000201613 loss
+2019-03-10 12:04:21,707 [INFO] unfolding 0, single step 147001
+2019-03-10 12:04:21,708 [INFO] Sum of grad norms of most recent batch: 0.005725
+2019-03-10 12:04:21,708 [INFO] ---------------------------------
+2019-03-10 12:04:45,784 [INFO] ---------------------------------
+2019-03-10 12:04:45,785 [INFO] Summary:
+2019-03-10 12:04:45,786 [INFO] Batch 148000, worst loss 0.027002 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 12:04:45,786 [INFO] Regularization: 2015.064819 * 0.0000000100 = 0.0000201506 loss
+2019-03-10 12:04:45,787 [INFO] unfolding 0, single step 148001
+2019-03-10 12:04:45,788 [INFO] Sum of grad norms of most recent batch: 0.009177
+2019-03-10 12:04:45,788 [INFO] ---------------------------------
+2019-03-10 12:05:09,577 [INFO] ---------------------------------
+2019-03-10 12:05:09,578 [INFO] Summary:
+2019-03-10 12:05:09,578 [INFO] Batch 149000, worst loss 0.033267 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 12:05:09,579 [INFO] Regularization: 2014.194214 * 0.0000000100 = 0.0000201419 loss
+2019-03-10 12:05:09,579 [INFO] unfolding 0, single step 149001
+2019-03-10 12:05:09,580 [INFO] Sum of grad norms of most recent batch: 0.010140
+2019-03-10 12:05:09,581 [INFO] ---------------------------------
+2019-03-10 12:05:33,424 [INFO] ---------------------------------
+2019-03-10 12:05:33,425 [INFO] Summary:
+2019-03-10 12:05:33,426 [INFO] Batch 150000, worst loss 0.016560 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 12:05:33,427 [INFO] Regularization: 2013.101318 * 0.0000000100 = 0.0000201310 loss
+2019-03-10 12:05:33,427 [INFO] unfolding 0, single step 150001
+2019-03-10 12:05:33,428 [INFO] Sum of grad norms of most recent batch: 0.028618
+2019-03-10 12:05:33,429 [INFO] ---------------------------------
+2019-03-10 12:05:46,742 [INFO] ---------------------------------
+2019-03-10 12:05:46,743 [INFO] Evaluation:
+2019-03-10 12:05:46,744 [INFO] Batch 150000, worst loss 0.022877 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 12:05:46,744 [INFO] ---------------------------------
+2019-03-10 12:05:46,745 [INFO] Finished training, saved to file transition/1552212199/1552215946_0_transition_final.pth
+2019-03-10 12:05:46,894 [INFO] ---------------------------------
+2019-03-10 12:05:46,896 [INFO] Training model #1: (412, 64, 9) @ 1 to 3, step at 30000
+2019-03-10 12:06:09,351 [INFO] ---------------------------------
+2019-03-10 12:06:09,352 [INFO] Summary:
+2019-03-10 12:06:09,352 [INFO] Batch 1000, worst loss 7.293974 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:06:09,353 [INFO] Regularization: 4721.707520 * 0.0000000100 = 0.0000472171 loss
+2019-03-10 12:06:09,354 [INFO] unfolding 0, single step 1001
+2019-03-10 12:06:09,355 [INFO] Sum of grad norms of most recent batch: 10.144654
+2019-03-10 12:06:09,356 [INFO] ---------------------------------
+2019-03-10 12:06:32,111 [INFO] ---------------------------------
+2019-03-10 12:06:32,112 [INFO] Summary:
+2019-03-10 12:06:32,112 [INFO] Batch 2000, worst loss 0.156443 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:06:32,113 [INFO] Regularization: 3832.483643 * 0.0000000100 = 0.0000383248 loss
+2019-03-10 12:06:32,114 [INFO] unfolding 0, single step 2001
+2019-03-10 12:06:32,115 [INFO] Sum of grad norms of most recent batch: 0.759560
+2019-03-10 12:06:32,116 [INFO] ---------------------------------
+2019-03-10 12:06:54,997 [INFO] ---------------------------------
+2019-03-10 12:06:54,998 [INFO] Summary:
+2019-03-10 12:06:54,999 [INFO] Batch 3000, worst loss 0.045896 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:06:54,999 [INFO] Regularization: 3764.170898 * 0.0000000100 = 0.0000376417 loss
+2019-03-10 12:06:55,000 [INFO] unfolding 0, single step 3001
+2019-03-10 12:06:55,000 [INFO] Sum of grad norms of most recent batch: 1.592431
+2019-03-10 12:06:55,001 [INFO] ---------------------------------
+2019-03-10 12:07:17,705 [INFO] ---------------------------------
+2019-03-10 12:07:17,706 [INFO] Summary:
+2019-03-10 12:07:17,706 [INFO] Batch 4000, worst loss 0.034667 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:07:17,707 [INFO] Regularization: 3714.468750 * 0.0000000100 = 0.0000371447 loss
+2019-03-10 12:07:17,708 [INFO] unfolding 0, single step 4001
+2019-03-10 12:07:17,708 [INFO] Sum of grad norms of most recent batch: 1.121704
+2019-03-10 12:07:17,709 [INFO] ---------------------------------
+2019-03-10 12:07:40,580 [INFO] ---------------------------------
+2019-03-10 12:07:40,581 [INFO] Summary:
+2019-03-10 12:07:40,582 [INFO] Batch 5000, worst loss 0.024545 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:07:40,582 [INFO] Regularization: 3641.708252 * 0.0000000100 = 0.0000364171 loss
+2019-03-10 12:07:40,583 [INFO] unfolding 0, single step 5001
+2019-03-10 12:07:40,583 [INFO] Sum of grad norms of most recent batch: 1.664989
+2019-03-10 12:07:40,584 [INFO] ---------------------------------
+2019-03-10 12:08:03,347 [INFO] ---------------------------------
+2019-03-10 12:08:03,348 [INFO] Summary:
+2019-03-10 12:08:03,349 [INFO] Batch 6000, worst loss 0.035899 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:08:03,350 [INFO] Regularization: 3576.142090 * 0.0000000100 = 0.0000357614 loss
+2019-03-10 12:08:03,350 [INFO] unfolding 0, single step 6001
+2019-03-10 12:08:03,351 [INFO] Sum of grad norms of most recent batch: 2.033172
+2019-03-10 12:08:03,352 [INFO] ---------------------------------
+2019-03-10 12:08:26,195 [INFO] ---------------------------------
+2019-03-10 12:08:26,196 [INFO] Summary:
+2019-03-10 12:08:26,196 [INFO] Batch 7000, worst loss 0.025314 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:08:26,197 [INFO] Regularization: 3482.245117 * 0.0000000100 = 0.0000348224 loss
+2019-03-10 12:08:26,198 [INFO] unfolding 0, single step 7001
+2019-03-10 12:08:26,199 [INFO] Sum of grad norms of most recent batch: 2.221580
+2019-03-10 12:08:26,199 [INFO] ---------------------------------
+2019-03-10 12:08:49,072 [INFO] ---------------------------------
+2019-03-10 12:08:49,073 [INFO] Summary:
+2019-03-10 12:08:49,074 [INFO] Batch 8000, worst loss 1.216884 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:08:49,075 [INFO] Regularization: 3394.609619 * 0.0000000100 = 0.0000339461 loss
+2019-03-10 12:08:49,076 [INFO] unfolding 0, single step 8001
+2019-03-10 12:08:49,077 [INFO] Sum of grad norms of most recent batch: 1.400999
+2019-03-10 12:08:49,078 [INFO] ---------------------------------
+2019-03-10 12:09:12,313 [INFO] ---------------------------------
+2019-03-10 12:09:12,313 [INFO] Summary:
+2019-03-10 12:09:12,314 [INFO] Batch 9000, worst loss 0.023406 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:09:12,314 [INFO] Regularization: 3275.632080 * 0.0000000100 = 0.0000327563 loss
+2019-03-10 12:09:12,315 [INFO] unfolding 0, single step 9001
+2019-03-10 12:09:12,316 [INFO] Sum of grad norms of most recent batch: 1.456980
+2019-03-10 12:09:12,316 [INFO] ---------------------------------
+2019-03-10 12:09:35,132 [INFO] ---------------------------------
+2019-03-10 12:09:35,133 [INFO] Summary:
+2019-03-10 12:09:35,134 [INFO] Batch 10000, worst loss 0.018294 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:09:35,135 [INFO] Regularization: 3171.929688 * 0.0000000100 = 0.0000317193 loss
+2019-03-10 12:09:35,135 [INFO] unfolding 0, single step 10001
+2019-03-10 12:09:35,136 [INFO] Sum of grad norms of most recent batch: 0.756924
+2019-03-10 12:09:35,137 [INFO] ---------------------------------
+2019-03-10 12:09:48,043 [INFO] ---------------------------------
+2019-03-10 12:09:48,045 [INFO] Evaluation:
+2019-03-10 12:09:48,046 [INFO] Batch 10000, worst loss 0.026585 of 1000 batches (without reg.) @est.-depth 1
+2019-03-10 12:09:48,047 [INFO] ---------------------------------
+2019-03-10 12:10:11,052 [INFO] ---------------------------------
+2019-03-10 12:10:11,053 [INFO] Summary:
+2019-03-10 12:10:11,053 [INFO] Batch 11000, worst loss 0.015979 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:10:11,054 [INFO] Regularization: 3069.936035 * 0.0000000100 = 0.0000306994 loss
+2019-03-10 12:10:11,055 [INFO] unfolding 0, single step 11001
+2019-03-10 12:10:11,055 [INFO] Sum of grad norms of most recent batch: 0.588433
+2019-03-10 12:10:11,056 [INFO] ---------------------------------
+2019-03-10 12:10:33,751 [INFO] ---------------------------------
+2019-03-10 12:10:33,751 [INFO] Summary:
+2019-03-10 12:10:33,752 [INFO] Batch 12000, worst loss 0.024425 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:10:33,753 [INFO] Regularization: 2976.490723 * 0.0000000100 = 0.0000297649 loss
+2019-03-10 12:10:33,753 [INFO] unfolding 0, single step 12001
+2019-03-10 12:10:33,754 [INFO] Sum of grad norms of most recent batch: 0.948192
+2019-03-10 12:10:33,755 [INFO] ---------------------------------
+2019-03-10 12:10:56,986 [INFO] ---------------------------------
+2019-03-10 12:10:56,987 [INFO] Summary:
+2019-03-10 12:10:56,987 [INFO] Batch 13000, worst loss 0.030132 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:10:56,988 [INFO] Regularization: 2897.869873 * 0.0000000100 = 0.0000289787 loss
+2019-03-10 12:10:56,988 [INFO] unfolding 0, single step 13001
+2019-03-10 12:10:56,989 [INFO] Sum of grad norms of most recent batch: 1.237760
+2019-03-10 12:10:56,989 [INFO] ---------------------------------
+2019-03-10 12:11:19,629 [INFO] ---------------------------------
+2019-03-10 12:11:19,629 [INFO] Summary:
+2019-03-10 12:11:19,630 [INFO] Batch 14000, worst loss 0.046146 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:11:19,630 [INFO] Regularization: 2778.662598 * 0.0000000100 = 0.0000277866 loss
+2019-03-10 12:11:19,631 [INFO] unfolding 0, single step 14001
+2019-03-10 12:11:19,631 [INFO] Sum of grad norms of most recent batch: 1.029036
+2019-03-10 12:11:19,632 [INFO] ---------------------------------
+2019-03-10 12:11:42,544 [INFO] ---------------------------------
+2019-03-10 12:11:42,545 [INFO] Summary:
+2019-03-10 12:11:42,546 [INFO] Batch 15000, worst loss 0.024833 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:11:42,547 [INFO] Regularization: 2688.707031 * 0.0000000100 = 0.0000268871 loss
+2019-03-10 12:11:42,547 [INFO] unfolding 0, single step 15001
+2019-03-10 12:11:42,548 [INFO] Sum of grad norms of most recent batch: 0.734824
+2019-03-10 12:11:42,549 [INFO] ---------------------------------
+2019-03-10 12:12:05,475 [INFO] ---------------------------------
+2019-03-10 12:12:05,476 [INFO] Summary:
+2019-03-10 12:12:05,476 [INFO] Batch 16000, worst loss 0.035597 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:12:05,477 [INFO] Regularization: 2602.485840 * 0.0000000100 = 0.0000260249 loss
+2019-03-10 12:12:05,478 [INFO] unfolding 0, single step 16001
+2019-03-10 12:12:05,482 [INFO] Sum of grad norms of most recent batch: 0.632632
+2019-03-10 12:12:05,483 [INFO] ---------------------------------
+2019-03-10 12:12:28,450 [INFO] ---------------------------------
+2019-03-10 12:12:28,451 [INFO] Summary:
+2019-03-10 12:12:28,451 [INFO] Batch 17000, worst loss 0.023974 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:12:28,452 [INFO] Regularization: 2578.229980 * 0.0000000100 = 0.0000257823 loss
+2019-03-10 12:12:28,452 [INFO] unfolding 0, single step 17001
+2019-03-10 12:12:28,453 [INFO] Sum of grad norms of most recent batch: 0.788132
+2019-03-10 12:12:28,453 [INFO] ---------------------------------
+2019-03-10 12:12:51,146 [INFO] ---------------------------------
+2019-03-10 12:12:51,147 [INFO] Summary:
+2019-03-10 12:12:51,148 [INFO] Batch 18000, worst loss 0.019354 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:12:51,148 [INFO] Regularization: 2526.210449 * 0.0000000100 = 0.0000252621 loss
+2019-03-10 12:12:51,149 [INFO] unfolding 0, single step 18001
+2019-03-10 12:12:51,149 [INFO] Sum of grad norms of most recent batch: 1.884851
+2019-03-10 12:12:51,150 [INFO] ---------------------------------
+2019-03-10 12:13:13,877 [INFO] ---------------------------------
+2019-03-10 12:13:13,878 [INFO] Summary:
+2019-03-10 12:13:13,878 [INFO] Batch 19000, worst loss 0.021880 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:13:13,879 [INFO] Regularization: 2485.679688 * 0.0000000100 = 0.0000248568 loss
+2019-03-10 12:13:13,879 [INFO] unfolding 0, single step 19001
+2019-03-10 12:13:13,880 [INFO] Sum of grad norms of most recent batch: 1.075015
+2019-03-10 12:13:13,881 [INFO] ---------------------------------
+2019-03-10 12:13:36,980 [INFO] ---------------------------------
+2019-03-10 12:13:36,981 [INFO] Summary:
+2019-03-10 12:13:36,981 [INFO] Batch 20000, worst loss 0.033800 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:13:36,982 [INFO] Regularization: 2459.728027 * 0.0000000100 = 0.0000245973 loss
+2019-03-10 12:13:36,983 [INFO] unfolding 0, single step 20001
+2019-03-10 12:13:36,984 [INFO] Sum of grad norms of most recent batch: 2.109817
+2019-03-10 12:13:36,984 [INFO] ---------------------------------
+2019-03-10 12:13:50,198 [INFO] ---------------------------------
+2019-03-10 12:13:50,200 [INFO] Evaluation:
+2019-03-10 12:13:50,201 [INFO] Batch 20000, worst loss 0.009881 of 1000 batches (without reg.) @est.-depth 1
+2019-03-10 12:13:50,202 [INFO] ---------------------------------
+2019-03-10 12:14:13,103 [INFO] ---------------------------------
+2019-03-10 12:14:13,104 [INFO] Summary:
+2019-03-10 12:14:13,105 [INFO] Batch 21000, worst loss 0.046343 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:14:13,105 [INFO] Regularization: 2425.869385 * 0.0000000100 = 0.0000242587 loss
+2019-03-10 12:14:13,106 [INFO] unfolding 0, single step 21001
+2019-03-10 12:14:13,107 [INFO] Sum of grad norms of most recent batch: 0.874668
+2019-03-10 12:14:13,107 [INFO] ---------------------------------
+2019-03-10 12:14:36,124 [INFO] ---------------------------------
+2019-03-10 12:14:36,125 [INFO] Summary:
+2019-03-10 12:14:36,125 [INFO] Batch 22000, worst loss 0.034207 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:14:36,126 [INFO] Regularization: 2397.658691 * 0.0000000100 = 0.0000239766 loss
+2019-03-10 12:14:36,128 [INFO] unfolding 0, single step 22001
+2019-03-10 12:14:36,129 [INFO] Sum of grad norms of most recent batch: 0.727105
+2019-03-10 12:14:36,129 [INFO] ---------------------------------
+2019-03-10 12:14:59,131 [INFO] ---------------------------------
+2019-03-10 12:14:59,132 [INFO] Summary:
+2019-03-10 12:14:59,132 [INFO] Batch 23000, worst loss 0.027285 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:14:59,133 [INFO] Regularization: 2357.530762 * 0.0000000100 = 0.0000235753 loss
+2019-03-10 12:14:59,134 [INFO] unfolding 0, single step 23001
+2019-03-10 12:14:59,135 [INFO] Sum of grad norms of most recent batch: 0.872493
+2019-03-10 12:14:59,135 [INFO] ---------------------------------
+2019-03-10 12:15:22,018 [INFO] ---------------------------------
+2019-03-10 12:15:22,020 [INFO] Summary:
+2019-03-10 12:15:22,020 [INFO] Batch 24000, worst loss 0.019593 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:15:22,021 [INFO] Regularization: 2331.303223 * 0.0000000100 = 0.0000233130 loss
+2019-03-10 12:15:22,021 [INFO] unfolding 0, single step 24001
+2019-03-10 12:15:22,022 [INFO] Sum of grad norms of most recent batch: 0.811003
+2019-03-10 12:15:22,023 [INFO] ---------------------------------
+2019-03-10 12:15:45,198 [INFO] ---------------------------------
+2019-03-10 12:15:45,199 [INFO] Summary:
+2019-03-10 12:15:45,199 [INFO] Batch 25000, worst loss 0.041477 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:15:45,200 [INFO] Regularization: 2362.079590 * 0.0000000100 = 0.0000236208 loss
+2019-03-10 12:15:45,201 [INFO] unfolding 0, single step 25001
+2019-03-10 12:15:45,201 [INFO] Sum of grad norms of most recent batch: 1.229524
+2019-03-10 12:15:45,202 [INFO] ---------------------------------
+2019-03-10 12:16:07,838 [INFO] ---------------------------------
+2019-03-10 12:16:07,839 [INFO] Summary:
+2019-03-10 12:16:07,839 [INFO] Batch 26000, worst loss 0.021667 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:16:07,841 [INFO] Regularization: 2336.687500 * 0.0000000100 = 0.0000233669 loss
+2019-03-10 12:16:07,841 [INFO] unfolding 0, single step 26001
+2019-03-10 12:16:07,850 [INFO] Sum of grad norms of most recent batch: 0.725923
+2019-03-10 12:16:07,851 [INFO] ---------------------------------
+2019-03-10 12:16:30,576 [INFO] ---------------------------------
+2019-03-10 12:16:30,577 [INFO] Summary:
+2019-03-10 12:16:30,578 [INFO] Batch 27000, worst loss 0.014029 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:16:30,579 [INFO] Regularization: 2279.271484 * 0.0000000100 = 0.0000227927 loss
+2019-03-10 12:16:30,579 [INFO] unfolding 0, single step 27001
+2019-03-10 12:16:30,580 [INFO] Sum of grad norms of most recent batch: 0.711786
+2019-03-10 12:16:30,581 [INFO] ---------------------------------
+2019-03-10 12:16:53,548 [INFO] ---------------------------------
+2019-03-10 12:16:53,549 [INFO] Summary:
+2019-03-10 12:16:53,550 [INFO] Batch 28000, worst loss 0.022169 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:16:53,550 [INFO] Regularization: 2252.147461 * 0.0000000100 = 0.0000225215 loss
+2019-03-10 12:16:53,551 [INFO] unfolding 0, single step 28001
+2019-03-10 12:16:53,552 [INFO] Sum of grad norms of most recent batch: 0.502626
+2019-03-10 12:16:53,553 [INFO] ---------------------------------
+2019-03-10 12:17:16,477 [INFO] ---------------------------------
+2019-03-10 12:17:16,478 [INFO] Summary:
+2019-03-10 12:17:16,478 [INFO] Batch 29000, worst loss 0.012494 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:17:16,479 [INFO] Regularization: 2215.583984 * 0.0000000100 = 0.0000221558 loss
+2019-03-10 12:17:16,480 [INFO] unfolding 0, single step 29001
+2019-03-10 12:17:16,480 [INFO] Sum of grad norms of most recent batch: 1.499854
+2019-03-10 12:17:16,481 [INFO] ---------------------------------
+2019-03-10 12:17:39,338 [INFO] ---------------------------------
+2019-03-10 12:17:39,339 [INFO] Summary:
+2019-03-10 12:17:39,339 [INFO] Batch 30000, worst loss 0.021779 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 1
+2019-03-10 12:17:39,340 [INFO] Regularization: 2191.420654 * 0.0000000100 = 0.0000219142 loss
+2019-03-10 12:17:39,340 [INFO] unfolding 0, single step 30001
+2019-03-10 12:17:39,341 [INFO] Sum of grad norms of most recent batch: 0.743569
+2019-03-10 12:17:39,341 [INFO] ---------------------------------
+2019-03-10 12:17:52,442 [INFO] ---------------------------------
+2019-03-10 12:17:52,443 [INFO] Evaluation:
+2019-03-10 12:17:52,444 [INFO] Batch 30000, worst loss 0.009849 of 1000 batches (without reg.) @est.-depth 1
+2019-03-10 12:17:52,445 [INFO] ---------------------------------
+2019-03-10 12:18:16,213 [INFO] ---------------------------------
+2019-03-10 12:18:16,213 [INFO] Summary:
+2019-03-10 12:18:16,214 [INFO] Batch 31000, worst loss 20977.648438 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:18:16,214 [INFO] Regularization: 14340.087891 * 0.0000000100 = 0.0001434009 loss
+2019-03-10 12:18:16,214 [INFO] unfolding 0, single step 31001
+2019-03-10 12:18:16,215 [INFO] Sum of grad norms of most recent batch: 1.116430
+2019-03-10 12:18:16,216 [INFO] ---------------------------------
+2019-03-10 12:18:39,355 [INFO] ---------------------------------
+2019-03-10 12:18:39,356 [INFO] Summary:
+2019-03-10 12:18:39,357 [INFO] Batch 32000, worst loss 0.020356 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:18:39,357 [INFO] Regularization: 14004.140625 * 0.0000000100 = 0.0001400414 loss
+2019-03-10 12:18:39,358 [INFO] unfolding 0, single step 32001
+2019-03-10 12:18:39,358 [INFO] Sum of grad norms of most recent batch: 1.217669
+2019-03-10 12:18:39,359 [INFO] ---------------------------------
+2019-03-10 12:19:02,498 [INFO] ---------------------------------
+2019-03-10 12:19:02,499 [INFO] Summary:
+2019-03-10 12:19:02,499 [INFO] Batch 33000, worst loss 0.133584 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:19:02,500 [INFO] Regularization: 13745.238281 * 0.0000000100 = 0.0001374524 loss
+2019-03-10 12:19:02,500 [INFO] unfolding 0, single step 33001
+2019-03-10 12:19:02,501 [INFO] Sum of grad norms of most recent batch: 1.260342
+2019-03-10 12:19:02,501 [INFO] ---------------------------------
+2019-03-10 12:19:26,197 [INFO] ---------------------------------
+2019-03-10 12:19:26,198 [INFO] Summary:
+2019-03-10 12:19:26,199 [INFO] Batch 34000, worst loss 0.036773 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:19:26,200 [INFO] Regularization: 13419.457031 * 0.0000000100 = 0.0001341946 loss
+2019-03-10 12:19:26,200 [INFO] unfolding 0, single step 34001
+2019-03-10 12:19:26,201 [INFO] Sum of grad norms of most recent batch: 0.499393
+2019-03-10 12:19:26,201 [INFO] ---------------------------------
+2019-03-10 12:19:49,935 [INFO] ---------------------------------
+2019-03-10 12:19:49,936 [INFO] Summary:
+2019-03-10 12:19:49,936 [INFO] Batch 35000, worst loss 0.274478 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:19:49,937 [INFO] Regularization: 13128.945312 * 0.0000000100 = 0.0001312894 loss
+2019-03-10 12:19:49,938 [INFO] unfolding 0, single step 35001
+2019-03-10 12:19:49,938 [INFO] Sum of grad norms of most recent batch: 0.933114
+2019-03-10 12:19:49,939 [INFO] ---------------------------------
+2019-03-10 12:20:13,501 [INFO] ---------------------------------
+2019-03-10 12:20:13,503 [INFO] Summary:
+2019-03-10 12:20:13,503 [INFO] Batch 36000, worst loss 5.181120 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:20:13,504 [INFO] Regularization: 12883.639648 * 0.0000000100 = 0.0001288364 loss
+2019-03-10 12:20:13,505 [INFO] unfolding 0, single step 36001
+2019-03-10 12:20:13,506 [INFO] Sum of grad norms of most recent batch: 0.645687
+2019-03-10 12:20:13,507 [INFO] ---------------------------------
+2019-03-10 12:20:37,045 [INFO] ---------------------------------
+2019-03-10 12:20:37,046 [INFO] Summary:
+2019-03-10 12:20:37,047 [INFO] Batch 37000, worst loss 0.029957 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:20:37,047 [INFO] Regularization: 12632.571289 * 0.0000000100 = 0.0001263257 loss
+2019-03-10 12:20:37,048 [INFO] unfolding 0, single step 37001
+2019-03-10 12:20:37,049 [INFO] Sum of grad norms of most recent batch: 0.804828
+2019-03-10 12:20:37,049 [INFO] ---------------------------------
+2019-03-10 12:21:00,606 [INFO] ---------------------------------
+2019-03-10 12:21:00,608 [INFO] Summary:
+2019-03-10 12:21:00,608 [INFO] Batch 38000, worst loss 0.032539 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:21:00,609 [INFO] Regularization: 12312.289062 * 0.0000000100 = 0.0001231229 loss
+2019-03-10 12:21:00,609 [INFO] unfolding 0, single step 38001
+2019-03-10 12:21:00,610 [INFO] Sum of grad norms of most recent batch: 0.692066
+2019-03-10 12:21:00,611 [INFO] ---------------------------------
+2019-03-10 12:21:24,066 [INFO] ---------------------------------
+2019-03-10 12:21:24,067 [INFO] Summary:
+2019-03-10 12:21:24,068 [INFO] Batch 39000, worst loss 0.022941 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:21:24,068 [INFO] Regularization: 12037.674805 * 0.0000000100 = 0.0001203767 loss
+2019-03-10 12:21:24,069 [INFO] unfolding 0, single step 39001
+2019-03-10 12:21:24,069 [INFO] Sum of grad norms of most recent batch: 0.462399
+2019-03-10 12:21:24,070 [INFO] ---------------------------------
+2019-03-10 12:21:47,628 [INFO] ---------------------------------
+2019-03-10 12:21:47,629 [INFO] Summary:
+2019-03-10 12:21:47,629 [INFO] Batch 40000, worst loss 0.010788 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:21:47,630 [INFO] Regularization: 11691.757812 * 0.0000000100 = 0.0001169176 loss
+2019-03-10 12:21:47,630 [INFO] unfolding 0, single step 40001
+2019-03-10 12:21:47,632 [INFO] Sum of grad norms of most recent batch: 0.631755
+2019-03-10 12:21:47,632 [INFO] ---------------------------------
+2019-03-10 12:22:00,761 [INFO] ---------------------------------
+2019-03-10 12:22:00,762 [INFO] Evaluation:
+2019-03-10 12:22:00,763 [INFO] Batch 40000, worst loss 0.018694 of 1000 batches (without reg.) @est.-depth 2
+2019-03-10 12:22:00,763 [INFO] ---------------------------------
+2019-03-10 12:22:24,775 [INFO] ---------------------------------
+2019-03-10 12:22:24,775 [INFO] Summary:
+2019-03-10 12:22:24,776 [INFO] Batch 41000, worst loss 0.035076 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:22:24,776 [INFO] Regularization: 11312.681641 * 0.0000000100 = 0.0001131268 loss
+2019-03-10 12:22:24,777 [INFO] unfolding 0, single step 41001
+2019-03-10 12:22:24,777 [INFO] Sum of grad norms of most recent batch: 0.660328
+2019-03-10 12:22:24,778 [INFO] ---------------------------------
+2019-03-10 12:22:48,132 [INFO] ---------------------------------
+2019-03-10 12:22:48,133 [INFO] Summary:
+2019-03-10 12:22:48,138 [INFO] Batch 42000, worst loss 0.024980 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:22:48,139 [INFO] Regularization: 10862.498047 * 0.0000000100 = 0.0001086250 loss
+2019-03-10 12:22:48,139 [INFO] unfolding 0, single step 42001
+2019-03-10 12:22:48,140 [INFO] Sum of grad norms of most recent batch: 0.800732
+2019-03-10 12:22:48,140 [INFO] ---------------------------------
+2019-03-10 12:23:11,604 [INFO] ---------------------------------
+2019-03-10 12:23:11,605 [INFO] Summary:
+2019-03-10 12:23:11,606 [INFO] Batch 43000, worst loss 0.027252 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:23:11,607 [INFO] Regularization: 10474.722656 * 0.0000000100 = 0.0001047472 loss
+2019-03-10 12:23:11,607 [INFO] unfolding 0, single step 43001
+2019-03-10 12:23:11,608 [INFO] Sum of grad norms of most recent batch: 0.453675
+2019-03-10 12:23:11,609 [INFO] ---------------------------------
+2019-03-10 12:23:35,064 [INFO] ---------------------------------
+2019-03-10 12:23:35,065 [INFO] Summary:
+2019-03-10 12:23:35,066 [INFO] Batch 44000, worst loss 0.012081 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:23:35,067 [INFO] Regularization: 9991.220703 * 0.0000000100 = 0.0000999122 loss
+2019-03-10 12:23:35,067 [INFO] unfolding 0, single step 44001
+2019-03-10 12:23:35,068 [INFO] Sum of grad norms of most recent batch: 0.750178
+2019-03-10 12:23:35,069 [INFO] ---------------------------------
+2019-03-10 12:23:58,952 [INFO] ---------------------------------
+2019-03-10 12:23:58,954 [INFO] Summary:
+2019-03-10 12:23:58,954 [INFO] Batch 45000, worst loss 0.014208 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:23:58,955 [INFO] Regularization: 9455.415039 * 0.0000000100 = 0.0000945541 loss
+2019-03-10 12:23:58,955 [INFO] unfolding 0, single step 45001
+2019-03-10 12:23:58,956 [INFO] Sum of grad norms of most recent batch: 0.917096
+2019-03-10 12:23:58,957 [INFO] ---------------------------------
+2019-03-10 12:24:22,588 [INFO] ---------------------------------
+2019-03-10 12:24:22,589 [INFO] Summary:
+2019-03-10 12:24:22,590 [INFO] Batch 46000, worst loss 0.034939 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:24:22,591 [INFO] Regularization: 8877.078125 * 0.0000000100 = 0.0000887708 loss
+2019-03-10 12:24:22,592 [INFO] unfolding 0, single step 46001
+2019-03-10 12:24:22,593 [INFO] Sum of grad norms of most recent batch: 0.271219
+2019-03-10 12:24:22,594 [INFO] ---------------------------------
+2019-03-10 12:24:45,969 [INFO] ---------------------------------
+2019-03-10 12:24:45,970 [INFO] Summary:
+2019-03-10 12:24:45,971 [INFO] Batch 47000, worst loss 0.018447 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:24:45,972 [INFO] Regularization: 8253.265625 * 0.0000000100 = 0.0000825327 loss
+2019-03-10 12:24:45,972 [INFO] unfolding 0, single step 47001
+2019-03-10 12:24:45,973 [INFO] Sum of grad norms of most recent batch: 0.436728
+2019-03-10 12:24:45,974 [INFO] ---------------------------------
+2019-03-10 12:25:09,524 [INFO] ---------------------------------
+2019-03-10 12:25:09,525 [INFO] Summary:
+2019-03-10 12:25:09,525 [INFO] Batch 48000, worst loss 0.005116 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:25:09,526 [INFO] Regularization: 7491.404785 * 0.0000000100 = 0.0000749140 loss
+2019-03-10 12:25:09,527 [INFO] unfolding 0, single step 48001
+2019-03-10 12:25:09,528 [INFO] Sum of grad norms of most recent batch: 0.608879
+2019-03-10 12:25:09,530 [INFO] ---------------------------------
+2019-03-10 12:25:33,270 [INFO] ---------------------------------
+2019-03-10 12:25:33,271 [INFO] Summary:
+2019-03-10 12:25:33,272 [INFO] Batch 49000, worst loss 0.031973 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:25:33,272 [INFO] Regularization: 6925.410645 * 0.0000000100 = 0.0000692541 loss
+2019-03-10 12:25:33,273 [INFO] unfolding 0, single step 49001
+2019-03-10 12:25:33,274 [INFO] Sum of grad norms of most recent batch: 0.731443
+2019-03-10 12:25:33,275 [INFO] ---------------------------------
+2019-03-10 12:25:56,789 [INFO] ---------------------------------
+2019-03-10 12:25:56,790 [INFO] Summary:
+2019-03-10 12:25:56,791 [INFO] Batch 50000, worst loss 0.035315 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:25:56,791 [INFO] Regularization: 6372.803711 * 0.0000000100 = 0.0000637280 loss
+2019-03-10 12:25:56,792 [INFO] unfolding 0, single step 50001
+2019-03-10 12:25:56,793 [INFO] Sum of grad norms of most recent batch: 0.941338
+2019-03-10 12:25:56,793 [INFO] ---------------------------------
+2019-03-10 12:26:10,072 [INFO] ---------------------------------
+2019-03-10 12:26:10,073 [INFO] Evaluation:
+2019-03-10 12:26:10,074 [INFO] Batch 50000, worst loss 0.013982 of 1000 batches (without reg.) @est.-depth 2
+2019-03-10 12:26:10,075 [INFO] ---------------------------------
+2019-03-10 12:26:33,417 [INFO] ---------------------------------
+2019-03-10 12:26:33,418 [INFO] Summary:
+2019-03-10 12:26:33,419 [INFO] Batch 51000, worst loss 0.019342 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:26:33,419 [INFO] Regularization: 5781.966797 * 0.0000000100 = 0.0000578197 loss
+2019-03-10 12:26:33,420 [INFO] unfolding 0, single step 51001
+2019-03-10 12:26:33,421 [INFO] Sum of grad norms of most recent batch: 0.394963
+2019-03-10 12:26:33,421 [INFO] ---------------------------------
+2019-03-10 12:26:56,478 [INFO] ---------------------------------
+2019-03-10 12:26:56,479 [INFO] Summary:
+2019-03-10 12:26:56,480 [INFO] Batch 52000, worst loss 0.025995 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:26:56,481 [INFO] Regularization: 5277.029785 * 0.0000000100 = 0.0000527703 loss
+2019-03-10 12:26:56,481 [INFO] unfolding 0, single step 52001
+2019-03-10 12:26:56,482 [INFO] Sum of grad norms of most recent batch: 0.571030
+2019-03-10 12:26:56,483 [INFO] ---------------------------------
+2019-03-10 12:27:20,234 [INFO] ---------------------------------
+2019-03-10 12:27:20,235 [INFO] Summary:
+2019-03-10 12:27:20,236 [INFO] Batch 53000, worst loss 0.036665 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:27:20,237 [INFO] Regularization: 4798.508301 * 0.0000000100 = 0.0000479851 loss
+2019-03-10 12:27:20,237 [INFO] unfolding 0, single step 53001
+2019-03-10 12:27:20,238 [INFO] Sum of grad norms of most recent batch: 0.370844
+2019-03-10 12:27:20,239 [INFO] ---------------------------------
+2019-03-10 12:27:43,729 [INFO] ---------------------------------
+2019-03-10 12:27:43,730 [INFO] Summary:
+2019-03-10 12:27:43,730 [INFO] Batch 54000, worst loss 0.027269 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:27:43,731 [INFO] Regularization: 4448.808594 * 0.0000000100 = 0.0000444881 loss
+2019-03-10 12:27:43,731 [INFO] unfolding 0, single step 54001
+2019-03-10 12:27:43,732 [INFO] Sum of grad norms of most recent batch: 0.652177
+2019-03-10 12:27:43,733 [INFO] ---------------------------------
+2019-03-10 12:28:07,440 [INFO] ---------------------------------
+2019-03-10 12:28:07,441 [INFO] Summary:
+2019-03-10 12:28:07,441 [INFO] Batch 55000, worst loss 0.029757 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:28:07,442 [INFO] Regularization: 4104.227051 * 0.0000000100 = 0.0000410423 loss
+2019-03-10 12:28:07,442 [INFO] unfolding 0, single step 55001
+2019-03-10 12:28:07,443 [INFO] Sum of grad norms of most recent batch: 0.822473
+2019-03-10 12:28:07,444 [INFO] ---------------------------------
+2019-03-10 12:28:30,650 [INFO] ---------------------------------
+2019-03-10 12:28:30,651 [INFO] Summary:
+2019-03-10 12:28:30,652 [INFO] Batch 56000, worst loss 0.027086 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:28:30,652 [INFO] Regularization: 3847.411377 * 0.0000000100 = 0.0000384741 loss
+2019-03-10 12:28:30,653 [INFO] unfolding 0, single step 56001
+2019-03-10 12:28:30,653 [INFO] Sum of grad norms of most recent batch: 0.805236
+2019-03-10 12:28:30,654 [INFO] ---------------------------------
+2019-03-10 12:28:53,953 [INFO] ---------------------------------
+2019-03-10 12:28:53,954 [INFO] Summary:
+2019-03-10 12:28:53,955 [INFO] Batch 57000, worst loss 0.027815 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:28:53,955 [INFO] Regularization: 3604.997803 * 0.0000000100 = 0.0000360500 loss
+2019-03-10 12:28:53,956 [INFO] unfolding 0, single step 57001
+2019-03-10 12:28:53,956 [INFO] Sum of grad norms of most recent batch: 0.212703
+2019-03-10 12:28:53,957 [INFO] ---------------------------------
+2019-03-10 12:29:17,420 [INFO] ---------------------------------
+2019-03-10 12:29:17,421 [INFO] Summary:
+2019-03-10 12:29:17,422 [INFO] Batch 58000, worst loss 0.010112 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:29:17,422 [INFO] Regularization: 3364.611816 * 0.0000000100 = 0.0000336461 loss
+2019-03-10 12:29:17,423 [INFO] unfolding 0, single step 58001
+2019-03-10 12:29:17,423 [INFO] Sum of grad norms of most recent batch: 0.307604
+2019-03-10 12:29:17,424 [INFO] ---------------------------------
+2019-03-10 12:29:40,698 [INFO] ---------------------------------
+2019-03-10 12:29:40,699 [INFO] Summary:
+2019-03-10 12:29:40,700 [INFO] Batch 59000, worst loss 0.016169 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:29:40,701 [INFO] Regularization: 3208.512939 * 0.0000000100 = 0.0000320851 loss
+2019-03-10 12:29:40,701 [INFO] unfolding 0, single step 59001
+2019-03-10 12:29:40,702 [INFO] Sum of grad norms of most recent batch: 0.901207
+2019-03-10 12:29:40,703 [INFO] ---------------------------------
+2019-03-10 12:30:04,088 [INFO] ---------------------------------
+2019-03-10 12:30:04,088 [INFO] Summary:
+2019-03-10 12:30:04,089 [INFO] Batch 60000, worst loss 0.014827 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.001000 @est.-depth 2
+2019-03-10 12:30:04,090 [INFO] Regularization: 3044.600342 * 0.0000000100 = 0.0000304460 loss
+2019-03-10 12:30:04,090 [INFO] unfolding 0, single step 60001
+2019-03-10 12:30:04,091 [INFO] Sum of grad norms of most recent batch: 0.539380
+2019-03-10 12:30:04,091 [INFO] ---------------------------------
+2019-03-10 12:30:17,055 [INFO] ---------------------------------
+2019-03-10 12:30:17,056 [INFO] Evaluation:
+2019-03-10 12:30:17,057 [INFO] Batch 60000, worst loss 0.017123 of 1000 batches (without reg.) @est.-depth 2
+2019-03-10 12:30:17,059 [INFO] ---------------------------------
+2019-03-10 12:30:41,067 [INFO] ---------------------------------
+2019-03-10 12:30:41,068 [INFO] Summary:
+2019-03-10 12:30:41,069 [INFO] Batch 61000, worst loss 19793.845703 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 12:30:41,069 [INFO] Regularization: 14905.622070 * 0.0000000100 = 0.0001490562 loss
+2019-03-10 12:30:41,070 [INFO] unfolding 0, single step 61001
+2019-03-10 12:30:41,070 [INFO] Sum of grad norms of most recent batch: 0.518061
+2019-03-10 12:30:41,071 [INFO] ---------------------------------
+2019-03-10 12:31:05,107 [INFO] ---------------------------------
+2019-03-10 12:31:05,108 [INFO] Summary:
+2019-03-10 12:31:05,109 [INFO] Batch 62000, worst loss 0.024890 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 12:31:05,110 [INFO] Regularization: 14252.924805 * 0.0000000100 = 0.0001425292 loss
+2019-03-10 12:31:05,110 [INFO] unfolding 0, single step 62001
+2019-03-10 12:31:05,111 [INFO] Sum of grad norms of most recent batch: 0.306631
+2019-03-10 12:31:05,112 [INFO] ---------------------------------
+2019-03-10 12:31:29,436 [INFO] ---------------------------------
+2019-03-10 12:31:29,437 [INFO] Summary:
+2019-03-10 12:31:29,437 [INFO] Batch 63000, worst loss 0.030321 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 12:31:29,438 [INFO] Regularization: 13639.973633 * 0.0000000100 = 0.0001363997 loss
+2019-03-10 12:31:29,438 [INFO] unfolding 0, single step 63001
+2019-03-10 12:31:29,439 [INFO] Sum of grad norms of most recent batch: 0.441373
+2019-03-10 12:31:29,440 [INFO] ---------------------------------
+2019-03-10 12:31:53,423 [INFO] ---------------------------------
+2019-03-10 12:31:53,424 [INFO] Summary:
+2019-03-10 12:31:53,425 [INFO] Batch 64000, worst loss 0.024581 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 12:31:53,425 [INFO] Regularization: 13187.447266 * 0.0000000100 = 0.0001318745 loss
+2019-03-10 12:31:53,426 [INFO] unfolding 0, single step 64001
+2019-03-10 12:31:53,426 [INFO] Sum of grad norms of most recent batch: 0.551811
+2019-03-10 12:31:53,427 [INFO] ---------------------------------
+2019-03-10 12:32:17,603 [INFO] ---------------------------------
+2019-03-10 12:32:17,604 [INFO] Summary:
+2019-03-10 12:32:17,604 [INFO] Batch 65000, worst loss 0.030595 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 12:32:17,605 [INFO] Regularization: 12718.924805 * 0.0000000100 = 0.0001271893 loss
+2019-03-10 12:32:17,605 [INFO] unfolding 0, single step 65001
+2019-03-10 12:32:17,606 [INFO] Sum of grad norms of most recent batch: 0.398928
+2019-03-10 12:32:17,607 [INFO] ---------------------------------
+2019-03-10 12:32:41,461 [INFO] ---------------------------------
+2019-03-10 12:32:41,462 [INFO] Summary:
+2019-03-10 12:32:41,462 [INFO] Batch 66000, worst loss 0.032044 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 12:32:41,463 [INFO] Regularization: 12255.780273 * 0.0000000100 = 0.0001225578 loss
+2019-03-10 12:32:41,463 [INFO] unfolding 0, single step 66001
+2019-03-10 12:32:41,464 [INFO] Sum of grad norms of most recent batch: 0.333559
+2019-03-10 12:32:41,464 [INFO] ---------------------------------
+2019-03-10 12:33:05,575 [INFO] ---------------------------------
+2019-03-10 12:33:05,576 [INFO] Summary:
+2019-03-10 12:33:05,577 [INFO] Batch 67000, worst loss 0.009295 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 12:33:05,577 [INFO] Regularization: 11807.136719 * 0.0000000100 = 0.0001180714 loss
+2019-03-10 12:33:05,578 [INFO] unfolding 0, single step 67001
+2019-03-10 12:33:05,579 [INFO] Sum of grad norms of most recent batch: 0.219182
+2019-03-10 12:33:05,580 [INFO] ---------------------------------
+2019-03-10 12:33:29,649 [INFO] ---------------------------------
+2019-03-10 12:33:29,650 [INFO] Summary:
+2019-03-10 12:33:29,651 [INFO] Batch 68000, worst loss 0.057323 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 12:33:29,652 [INFO] Regularization: 11401.977539 * 0.0000000100 = 0.0001140198 loss
+2019-03-10 12:33:29,652 [INFO] unfolding 0, single step 68001
+2019-03-10 12:33:29,653 [INFO] Sum of grad norms of most recent batch: 23.039249
+2019-03-10 12:33:29,654 [INFO] ---------------------------------
+2019-03-10 12:33:53,933 [INFO] ---------------------------------
+2019-03-10 12:33:53,934 [INFO] Summary:
+2019-03-10 12:33:53,934 [INFO] Batch 69000, worst loss 0.045015 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 12:33:53,935 [INFO] Regularization: 10948.720703 * 0.0000000100 = 0.0001094872 loss
+2019-03-10 12:33:53,935 [INFO] unfolding 0, single step 69001
+2019-03-10 12:33:53,936 [INFO] Sum of grad norms of most recent batch: 0.612851
+2019-03-10 12:33:53,936 [INFO] ---------------------------------
+2019-03-10 12:34:17,933 [INFO] ---------------------------------
+2019-03-10 12:34:17,934 [INFO] Summary:
+2019-03-10 12:34:17,934 [INFO] Batch 70000, worst loss 0.026613 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000500 @est.-depth 3
+2019-03-10 12:34:17,935 [INFO] Regularization: 10452.904297 * 0.0000000100 = 0.0001045290 loss
+2019-03-10 12:34:17,935 [INFO] unfolding 0, single step 70001
+2019-03-10 12:34:17,936 [INFO] Sum of grad norms of most recent batch: 0.662990
+2019-03-10 12:34:17,937 [INFO] ---------------------------------
+2019-03-10 12:34:31,040 [INFO] ---------------------------------
+2019-03-10 12:34:31,041 [INFO] Evaluation:
+2019-03-10 12:34:31,041 [INFO] Batch 70000, worst loss 0.014834 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 12:34:31,042 [INFO] ---------------------------------
+2019-03-10 12:34:55,222 [INFO] ---------------------------------
+2019-03-10 12:34:55,223 [INFO] Summary:
+2019-03-10 12:34:55,224 [INFO] Batch 71000, worst loss 0.032267 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 12:34:55,225 [INFO] Regularization: 9973.497070 * 0.0000000100 = 0.0000997350 loss
+2019-03-10 12:34:55,225 [INFO] unfolding 0, single step 71001
+2019-03-10 12:34:55,226 [INFO] Sum of grad norms of most recent batch: 0.342329
+2019-03-10 12:34:55,227 [INFO] ---------------------------------
+2019-03-10 12:35:19,519 [INFO] ---------------------------------
+2019-03-10 12:35:19,520 [INFO] Summary:
+2019-03-10 12:35:19,521 [INFO] Batch 72000, worst loss 0.030212 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 12:35:19,521 [INFO] Regularization: 9568.949219 * 0.0000000100 = 0.0000956895 loss
+2019-03-10 12:35:19,522 [INFO] unfolding 0, single step 72001
+2019-03-10 12:35:19,522 [INFO] Sum of grad norms of most recent batch: 0.104617
+2019-03-10 12:35:19,523 [INFO] ---------------------------------
+2019-03-10 12:35:43,265 [INFO] ---------------------------------
+2019-03-10 12:35:43,266 [INFO] Summary:
+2019-03-10 12:35:43,267 [INFO] Batch 73000, worst loss 0.019072 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 12:35:43,267 [INFO] Regularization: 9123.408203 * 0.0000000100 = 0.0000912341 loss
+2019-03-10 12:35:43,268 [INFO] unfolding 0, single step 73001
+2019-03-10 12:35:43,269 [INFO] Sum of grad norms of most recent batch: 0.119558
+2019-03-10 12:35:43,270 [INFO] ---------------------------------
+2019-03-10 12:36:07,240 [INFO] ---------------------------------
+2019-03-10 12:36:07,241 [INFO] Summary:
+2019-03-10 12:36:07,242 [INFO] Batch 74000, worst loss 0.030920 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 12:36:07,243 [INFO] Regularization: 8712.074219 * 0.0000000100 = 0.0000871207 loss
+2019-03-10 12:36:07,243 [INFO] unfolding 0, single step 74001
+2019-03-10 12:36:07,244 [INFO] Sum of grad norms of most recent batch: 0.468067
+2019-03-10 12:36:07,245 [INFO] ---------------------------------
+2019-03-10 12:36:31,181 [INFO] ---------------------------------
+2019-03-10 12:36:31,182 [INFO] Summary:
+2019-03-10 12:36:31,183 [INFO] Batch 75000, worst loss 0.018395 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 12:36:31,184 [INFO] Regularization: 8222.243164 * 0.0000000100 = 0.0000822224 loss
+2019-03-10 12:36:31,184 [INFO] unfolding 0, single step 75001
+2019-03-10 12:36:31,185 [INFO] Sum of grad norms of most recent batch: 0.266829
+2019-03-10 12:36:31,186 [INFO] ---------------------------------
+2019-03-10 12:36:55,346 [INFO] ---------------------------------
+2019-03-10 12:36:55,347 [INFO] Summary:
+2019-03-10 12:36:55,348 [INFO] Batch 76000, worst loss 0.024219 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 12:36:55,349 [INFO] Regularization: 7694.942871 * 0.0000000100 = 0.0000769494 loss
+2019-03-10 12:36:55,349 [INFO] unfolding 0, single step 76001
+2019-03-10 12:36:55,351 [INFO] Sum of grad norms of most recent batch: 0.138388
+2019-03-10 12:36:55,352 [INFO] ---------------------------------
+2019-03-10 12:37:19,661 [INFO] ---------------------------------
+2019-03-10 12:37:19,662 [INFO] Summary:
+2019-03-10 12:37:19,663 [INFO] Batch 77000, worst loss 0.028998 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 12:37:19,663 [INFO] Regularization: 7190.297852 * 0.0000000100 = 0.0000719030 loss
+2019-03-10 12:37:19,664 [INFO] unfolding 0, single step 77001
+2019-03-10 12:37:19,665 [INFO] Sum of grad norms of most recent batch: 0.206770
+2019-03-10 12:37:19,665 [INFO] ---------------------------------
+2019-03-10 12:37:43,577 [INFO] ---------------------------------
+2019-03-10 12:37:43,577 [INFO] Summary:
+2019-03-10 12:37:43,578 [INFO] Batch 78000, worst loss 0.034229 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 12:37:43,579 [INFO] Regularization: 6654.431641 * 0.0000000100 = 0.0000665443 loss
+2019-03-10 12:37:43,579 [INFO] unfolding 0, single step 78001
+2019-03-10 12:37:43,580 [INFO] Sum of grad norms of most recent batch: 0.044860
+2019-03-10 12:37:43,580 [INFO] ---------------------------------
+2019-03-10 12:38:07,513 [INFO] ---------------------------------
+2019-03-10 12:38:07,514 [INFO] Summary:
+2019-03-10 12:38:07,514 [INFO] Batch 79000, worst loss 0.019592 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 12:38:07,515 [INFO] Regularization: 6149.035156 * 0.0000000100 = 0.0000614904 loss
+2019-03-10 12:38:07,516 [INFO] unfolding 0, single step 79001
+2019-03-10 12:38:07,517 [INFO] Sum of grad norms of most recent batch: 0.191283
+2019-03-10 12:38:07,518 [INFO] ---------------------------------
+2019-03-10 12:38:31,659 [INFO] ---------------------------------
+2019-03-10 12:38:31,660 [INFO] Summary:
+2019-03-10 12:38:31,661 [INFO] Batch 80000, worst loss 0.009564 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000250 @est.-depth 3
+2019-03-10 12:38:31,661 [INFO] Regularization: 5580.235352 * 0.0000000100 = 0.0000558024 loss
+2019-03-10 12:38:31,662 [INFO] unfolding 0, single step 80001
+2019-03-10 12:38:31,663 [INFO] Sum of grad norms of most recent batch: 0.197344
+2019-03-10 12:38:31,663 [INFO] ---------------------------------
+2019-03-10 12:38:44,816 [INFO] ---------------------------------
+2019-03-10 12:38:44,817 [INFO] Evaluation:
+2019-03-10 12:38:44,818 [INFO] Batch 80000, worst loss 0.021118 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 12:38:44,819 [INFO] ---------------------------------
+2019-03-10 12:39:08,756 [INFO] ---------------------------------
+2019-03-10 12:39:08,757 [INFO] Summary:
+2019-03-10 12:39:08,758 [INFO] Batch 81000, worst loss 0.030577 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 12:39:08,759 [INFO] Regularization: 5049.595703 * 0.0000000100 = 0.0000504960 loss
+2019-03-10 12:39:08,759 [INFO] unfolding 0, single step 81001
+2019-03-10 12:39:08,760 [INFO] Sum of grad norms of most recent batch: 0.089316
+2019-03-10 12:39:08,760 [INFO] ---------------------------------
+2019-03-10 12:39:32,435 [INFO] ---------------------------------
+2019-03-10 12:39:32,436 [INFO] Summary:
+2019-03-10 12:39:32,436 [INFO] Batch 82000, worst loss 0.018262 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 12:39:32,437 [INFO] Regularization: 4753.504395 * 0.0000000100 = 0.0000475350 loss
+2019-03-10 12:39:32,437 [INFO] unfolding 0, single step 82001
+2019-03-10 12:39:32,438 [INFO] Sum of grad norms of most recent batch: 0.080672
+2019-03-10 12:39:32,438 [INFO] ---------------------------------
+2019-03-10 12:39:56,614 [INFO] ---------------------------------
+2019-03-10 12:39:56,615 [INFO] Summary:
+2019-03-10 12:39:56,616 [INFO] Batch 83000, worst loss 0.007940 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 12:39:56,617 [INFO] Regularization: 4446.867188 * 0.0000000100 = 0.0000444687 loss
+2019-03-10 12:39:56,617 [INFO] unfolding 0, single step 83001
+2019-03-10 12:39:56,618 [INFO] Sum of grad norms of most recent batch: 0.060167
+2019-03-10 12:39:56,619 [INFO] ---------------------------------
+2019-03-10 12:40:20,794 [INFO] ---------------------------------
+2019-03-10 12:40:20,795 [INFO] Summary:
+2019-03-10 12:40:20,795 [INFO] Batch 84000, worst loss 0.027161 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 12:40:20,796 [INFO] Regularization: 4131.800781 * 0.0000000100 = 0.0000413180 loss
+2019-03-10 12:40:20,797 [INFO] unfolding 0, single step 84001
+2019-03-10 12:40:20,798 [INFO] Sum of grad norms of most recent batch: 0.097517
+2019-03-10 12:40:20,798 [INFO] ---------------------------------
+2019-03-10 12:40:44,595 [INFO] ---------------------------------
+2019-03-10 12:40:44,597 [INFO] Summary:
+2019-03-10 12:40:44,597 [INFO] Batch 85000, worst loss 0.032637 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 12:40:44,598 [INFO] Regularization: 3859.143555 * 0.0000000100 = 0.0000385914 loss
+2019-03-10 12:40:44,599 [INFO] unfolding 0, single step 85001
+2019-03-10 12:40:44,599 [INFO] Sum of grad norms of most recent batch: 0.067728
+2019-03-10 12:40:44,600 [INFO] ---------------------------------
+2019-03-10 12:41:08,496 [INFO] ---------------------------------
+2019-03-10 12:41:08,497 [INFO] Summary:
+2019-03-10 12:41:08,498 [INFO] Batch 86000, worst loss 0.015828 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 12:41:08,499 [INFO] Regularization: 3612.577881 * 0.0000000100 = 0.0000361258 loss
+2019-03-10 12:41:08,499 [INFO] unfolding 0, single step 86001
+2019-03-10 12:41:08,500 [INFO] Sum of grad norms of most recent batch: 0.061408
+2019-03-10 12:41:08,501 [INFO] ---------------------------------
+2019-03-10 12:41:32,250 [INFO] ---------------------------------
+2019-03-10 12:41:32,251 [INFO] Summary:
+2019-03-10 12:41:32,252 [INFO] Batch 87000, worst loss 0.016940 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 12:41:32,253 [INFO] Regularization: 3379.777344 * 0.0000000100 = 0.0000337978 loss
+2019-03-10 12:41:32,253 [INFO] unfolding 0, single step 87001
+2019-03-10 12:41:32,254 [INFO] Sum of grad norms of most recent batch: 0.073747
+2019-03-10 12:41:32,255 [INFO] ---------------------------------
+2019-03-10 12:41:56,228 [INFO] ---------------------------------
+2019-03-10 12:41:56,229 [INFO] Summary:
+2019-03-10 12:41:56,229 [INFO] Batch 88000, worst loss 0.018134 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 12:41:56,230 [INFO] Regularization: 3163.410400 * 0.0000000100 = 0.0000316341 loss
+2019-03-10 12:41:56,230 [INFO] unfolding 0, single step 88001
+2019-03-10 12:41:56,231 [INFO] Sum of grad norms of most recent batch: 0.056602
+2019-03-10 12:41:56,232 [INFO] ---------------------------------
+2019-03-10 12:42:20,069 [INFO] ---------------------------------
+2019-03-10 12:42:20,070 [INFO] Summary:
+2019-03-10 12:42:20,070 [INFO] Batch 89000, worst loss 0.018010 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 12:42:20,071 [INFO] Regularization: 2966.536621 * 0.0000000100 = 0.0000296654 loss
+2019-03-10 12:42:20,071 [INFO] unfolding 0, single step 89001
+2019-03-10 12:42:20,072 [INFO] Sum of grad norms of most recent batch: 0.062358
+2019-03-10 12:42:20,072 [INFO] ---------------------------------
+2019-03-10 12:42:44,357 [INFO] ---------------------------------
+2019-03-10 12:42:44,358 [INFO] Summary:
+2019-03-10 12:42:44,358 [INFO] Batch 90000, worst loss 0.036537 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000125 @est.-depth 3
+2019-03-10 12:42:44,359 [INFO] Regularization: 2793.863281 * 0.0000000100 = 0.0000279386 loss
+2019-03-10 12:42:44,360 [INFO] unfolding 0, single step 90001
+2019-03-10 12:42:44,360 [INFO] Sum of grad norms of most recent batch: 0.162688
+2019-03-10 12:42:44,361 [INFO] ---------------------------------
+2019-03-10 12:42:57,411 [INFO] ---------------------------------
+2019-03-10 12:42:57,413 [INFO] Evaluation:
+2019-03-10 12:42:57,414 [INFO] Batch 90000, worst loss 0.021750 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 12:42:57,415 [INFO] ---------------------------------
+2019-03-10 12:43:21,213 [INFO] ---------------------------------
+2019-03-10 12:43:21,214 [INFO] Summary:
+2019-03-10 12:43:21,215 [INFO] Batch 91000, worst loss 0.014435 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 12:43:21,216 [INFO] Regularization: 2641.091064 * 0.0000000100 = 0.0000264109 loss
+2019-03-10 12:43:21,216 [INFO] unfolding 0, single step 91001
+2019-03-10 12:43:21,217 [INFO] Sum of grad norms of most recent batch: 0.055443
+2019-03-10 12:43:21,217 [INFO] ---------------------------------
+2019-03-10 12:43:44,967 [INFO] ---------------------------------
+2019-03-10 12:43:44,968 [INFO] Summary:
+2019-03-10 12:43:44,968 [INFO] Batch 92000, worst loss 0.022908 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 12:43:44,969 [INFO] Regularization: 2563.057861 * 0.0000000100 = 0.0000256306 loss
+2019-03-10 12:43:44,969 [INFO] unfolding 0, single step 92001
+2019-03-10 12:43:44,970 [INFO] Sum of grad norms of most recent batch: 0.073701
+2019-03-10 12:43:44,971 [INFO] ---------------------------------
+2019-03-10 12:44:08,946 [INFO] ---------------------------------
+2019-03-10 12:44:08,947 [INFO] Summary:
+2019-03-10 12:44:08,948 [INFO] Batch 93000, worst loss 0.013304 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 12:44:08,949 [INFO] Regularization: 2487.988037 * 0.0000000100 = 0.0000248799 loss
+2019-03-10 12:44:08,950 [INFO] unfolding 0, single step 93001
+2019-03-10 12:44:08,951 [INFO] Sum of grad norms of most recent batch: 0.147077
+2019-03-10 12:44:08,952 [INFO] ---------------------------------
+2019-03-10 12:44:32,965 [INFO] ---------------------------------
+2019-03-10 12:44:32,966 [INFO] Summary:
+2019-03-10 12:44:32,967 [INFO] Batch 94000, worst loss 0.009839 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 12:44:32,967 [INFO] Regularization: 2410.432861 * 0.0000000100 = 0.0000241043 loss
+2019-03-10 12:44:32,968 [INFO] unfolding 0, single step 94001
+2019-03-10 12:44:32,968 [INFO] Sum of grad norms of most recent batch: 0.083875
+2019-03-10 12:44:32,969 [INFO] ---------------------------------
+2019-03-10 12:44:56,717 [INFO] ---------------------------------
+2019-03-10 12:44:56,718 [INFO] Summary:
+2019-03-10 12:44:56,719 [INFO] Batch 95000, worst loss 0.011349 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 12:44:56,719 [INFO] Regularization: 2333.173828 * 0.0000000100 = 0.0000233317 loss
+2019-03-10 12:44:56,719 [INFO] unfolding 0, single step 95001
+2019-03-10 12:44:56,720 [INFO] Sum of grad norms of most recent batch: 0.069305
+2019-03-10 12:44:56,721 [INFO] ---------------------------------
+2019-03-10 12:45:20,722 [INFO] ---------------------------------
+2019-03-10 12:45:20,723 [INFO] Summary:
+2019-03-10 12:45:20,723 [INFO] Batch 96000, worst loss 0.032713 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 12:45:20,724 [INFO] Regularization: 2260.691162 * 0.0000000100 = 0.0000226069 loss
+2019-03-10 12:45:20,724 [INFO] unfolding 0, single step 96001
+2019-03-10 12:45:20,724 [INFO] Sum of grad norms of most recent batch: 0.120768
+2019-03-10 12:45:20,725 [INFO] ---------------------------------
+2019-03-10 12:45:44,609 [INFO] ---------------------------------
+2019-03-10 12:45:44,610 [INFO] Summary:
+2019-03-10 12:45:44,611 [INFO] Batch 97000, worst loss 0.031485 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 12:45:44,612 [INFO] Regularization: 2221.261230 * 0.0000000100 = 0.0000222126 loss
+2019-03-10 12:45:44,612 [INFO] unfolding 0, single step 97001
+2019-03-10 12:45:44,613 [INFO] Sum of grad norms of most recent batch: 0.089591
+2019-03-10 12:45:44,613 [INFO] ---------------------------------
+2019-03-10 12:46:08,413 [INFO] ---------------------------------
+2019-03-10 12:46:08,414 [INFO] Summary:
+2019-03-10 12:46:08,415 [INFO] Batch 98000, worst loss 0.018848 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 12:46:08,415 [INFO] Regularization: 2183.606201 * 0.0000000100 = 0.0000218361 loss
+2019-03-10 12:46:08,416 [INFO] unfolding 0, single step 98001
+2019-03-10 12:46:08,417 [INFO] Sum of grad norms of most recent batch: 0.039167
+2019-03-10 12:46:08,417 [INFO] ---------------------------------
+2019-03-10 12:46:32,422 [INFO] ---------------------------------
+2019-03-10 12:46:32,423 [INFO] Summary:
+2019-03-10 12:46:32,424 [INFO] Batch 99000, worst loss 0.023896 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 12:46:32,425 [INFO] Regularization: 2148.159180 * 0.0000000100 = 0.0000214816 loss
+2019-03-10 12:46:32,425 [INFO] unfolding 0, single step 99001
+2019-03-10 12:46:32,426 [INFO] Sum of grad norms of most recent batch: 0.018687
+2019-03-10 12:46:32,426 [INFO] ---------------------------------
+2019-03-10 12:46:56,336 [INFO] ---------------------------------
+2019-03-10 12:46:56,337 [INFO] Summary:
+2019-03-10 12:46:56,337 [INFO] Batch 100000, worst loss 0.023463 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000063 @est.-depth 3
+2019-03-10 12:46:56,338 [INFO] Regularization: 2112.270508 * 0.0000000100 = 0.0000211227 loss
+2019-03-10 12:46:56,339 [INFO] unfolding 0, single step 100001
+2019-03-10 12:46:56,340 [INFO] Sum of grad norms of most recent batch: 0.073149
+2019-03-10 12:46:56,341 [INFO] ---------------------------------
+2019-03-10 12:47:09,472 [INFO] ---------------------------------
+2019-03-10 12:47:09,473 [INFO] Evaluation:
+2019-03-10 12:47:09,474 [INFO] Batch 100000, worst loss 0.022895 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 12:47:09,474 [INFO] ---------------------------------
+2019-03-10 12:47:33,374 [INFO] ---------------------------------
+2019-03-10 12:47:33,375 [INFO] Summary:
+2019-03-10 12:47:33,376 [INFO] Batch 101000, worst loss 0.021749 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 12:47:33,377 [INFO] Regularization: 2087.094238 * 0.0000000100 = 0.0000208709 loss
+2019-03-10 12:47:33,378 [INFO] unfolding 0, single step 101001
+2019-03-10 12:47:33,379 [INFO] Sum of grad norms of most recent batch: 0.801592
+2019-03-10 12:47:33,380 [INFO] ---------------------------------
+2019-03-10 12:47:57,644 [INFO] ---------------------------------
+2019-03-10 12:47:57,645 [INFO] Summary:
+2019-03-10 12:47:57,646 [INFO] Batch 102000, worst loss 0.016425 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 12:47:57,646 [INFO] Regularization: 2071.593750 * 0.0000000100 = 0.0000207159 loss
+2019-03-10 12:47:57,647 [INFO] unfolding 0, single step 102001
+2019-03-10 12:47:57,648 [INFO] Sum of grad norms of most recent batch: 0.063323
+2019-03-10 12:47:57,648 [INFO] ---------------------------------
+2019-03-10 12:48:21,480 [INFO] ---------------------------------
+2019-03-10 12:48:21,481 [INFO] Summary:
+2019-03-10 12:48:21,481 [INFO] Batch 103000, worst loss 0.009776 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 12:48:21,482 [INFO] Regularization: 2059.031006 * 0.0000000100 = 0.0000205903 loss
+2019-03-10 12:48:21,482 [INFO] unfolding 0, single step 103001
+2019-03-10 12:48:21,483 [INFO] Sum of grad norms of most recent batch: 0.047543
+2019-03-10 12:48:21,484 [INFO] ---------------------------------
+2019-03-10 12:48:45,200 [INFO] ---------------------------------
+2019-03-10 12:48:45,201 [INFO] Summary:
+2019-03-10 12:48:45,201 [INFO] Batch 104000, worst loss 0.005518 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 12:48:45,202 [INFO] Regularization: 2044.626953 * 0.0000000100 = 0.0000204463 loss
+2019-03-10 12:48:45,202 [INFO] unfolding 0, single step 104001
+2019-03-10 12:48:45,203 [INFO] Sum of grad norms of most recent batch: 0.024197
+2019-03-10 12:48:45,204 [INFO] ---------------------------------
+2019-03-10 12:49:09,277 [INFO] ---------------------------------
+2019-03-10 12:49:09,278 [INFO] Summary:
+2019-03-10 12:49:09,283 [INFO] Batch 105000, worst loss 0.020165 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 12:49:09,285 [INFO] Regularization: 2028.758423 * 0.0000000100 = 0.0000202876 loss
+2019-03-10 12:49:09,285 [INFO] unfolding 0, single step 105001
+2019-03-10 12:49:09,287 [INFO] Sum of grad norms of most recent batch: 0.031443
+2019-03-10 12:49:09,287 [INFO] ---------------------------------
+2019-03-10 12:49:33,170 [INFO] ---------------------------------
+2019-03-10 12:49:33,171 [INFO] Summary:
+2019-03-10 12:49:33,171 [INFO] Batch 106000, worst loss 0.026843 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 12:49:33,172 [INFO] Regularization: 2014.425537 * 0.0000000100 = 0.0000201443 loss
+2019-03-10 12:49:33,172 [INFO] unfolding 0, single step 106001
+2019-03-10 12:49:33,173 [INFO] Sum of grad norms of most recent batch: 0.272512
+2019-03-10 12:49:33,174 [INFO] ---------------------------------
+2019-03-10 12:49:57,341 [INFO] ---------------------------------
+2019-03-10 12:49:57,342 [INFO] Summary:
+2019-03-10 12:49:57,343 [INFO] Batch 107000, worst loss 0.018238 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 12:49:57,343 [INFO] Regularization: 1997.192505 * 0.0000000100 = 0.0000199719 loss
+2019-03-10 12:49:57,344 [INFO] unfolding 0, single step 107001
+2019-03-10 12:49:57,345 [INFO] Sum of grad norms of most recent batch: 0.027786
+2019-03-10 12:49:57,347 [INFO] ---------------------------------
+2019-03-10 12:50:21,018 [INFO] ---------------------------------
+2019-03-10 12:50:21,019 [INFO] Summary:
+2019-03-10 12:50:21,019 [INFO] Batch 108000, worst loss 0.019132 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 12:50:21,020 [INFO] Regularization: 1978.275146 * 0.0000000100 = 0.0000197828 loss
+2019-03-10 12:50:21,020 [INFO] unfolding 0, single step 108001
+2019-03-10 12:50:21,021 [INFO] Sum of grad norms of most recent batch: 0.028751
+2019-03-10 12:50:21,022 [INFO] ---------------------------------
+2019-03-10 12:50:44,948 [INFO] ---------------------------------
+2019-03-10 12:50:44,949 [INFO] Summary:
+2019-03-10 12:50:44,950 [INFO] Batch 109000, worst loss 0.034667 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 12:50:44,951 [INFO] Regularization: 1958.810059 * 0.0000000100 = 0.0000195881 loss
+2019-03-10 12:50:44,951 [INFO] unfolding 0, single step 109001
+2019-03-10 12:50:44,952 [INFO] Sum of grad norms of most recent batch: 0.032713
+2019-03-10 12:50:44,953 [INFO] ---------------------------------
+2019-03-10 12:51:08,518 [INFO] ---------------------------------
+2019-03-10 12:51:08,519 [INFO] Summary:
+2019-03-10 12:51:08,519 [INFO] Batch 110000, worst loss 0.029195 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000031 @est.-depth 3
+2019-03-10 12:51:08,520 [INFO] Regularization: 1938.519653 * 0.0000000100 = 0.0000193852 loss
+2019-03-10 12:51:08,521 [INFO] unfolding 0, single step 110001
+2019-03-10 12:51:08,522 [INFO] Sum of grad norms of most recent batch: 0.464981
+2019-03-10 12:51:08,522 [INFO] ---------------------------------
+2019-03-10 12:51:21,624 [INFO] ---------------------------------
+2019-03-10 12:51:21,625 [INFO] Evaluation:
+2019-03-10 12:51:21,626 [INFO] Batch 110000, worst loss 0.028690 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 12:51:21,626 [INFO] ---------------------------------
+2019-03-10 12:51:45,519 [INFO] ---------------------------------
+2019-03-10 12:51:45,520 [INFO] Summary:
+2019-03-10 12:51:45,520 [INFO] Batch 111000, worst loss 0.029587 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 12:51:45,521 [INFO] Regularization: 1917.266846 * 0.0000000100 = 0.0000191727 loss
+2019-03-10 12:51:45,522 [INFO] unfolding 0, single step 111001
+2019-03-10 12:51:45,522 [INFO] Sum of grad norms of most recent batch: 0.012973
+2019-03-10 12:51:45,523 [INFO] ---------------------------------
+2019-03-10 12:52:09,430 [INFO] ---------------------------------
+2019-03-10 12:52:09,431 [INFO] Summary:
+2019-03-10 12:52:09,431 [INFO] Batch 112000, worst loss 0.016856 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 12:52:09,432 [INFO] Regularization: 1906.194580 * 0.0000000100 = 0.0000190619 loss
+2019-03-10 12:52:09,432 [INFO] unfolding 0, single step 112001
+2019-03-10 12:52:09,433 [INFO] Sum of grad norms of most recent batch: 0.015075
+2019-03-10 12:52:09,434 [INFO] ---------------------------------
+2019-03-10 12:52:33,642 [INFO] ---------------------------------
+2019-03-10 12:52:33,643 [INFO] Summary:
+2019-03-10 12:52:33,644 [INFO] Batch 113000, worst loss 0.016194 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 12:52:33,644 [INFO] Regularization: 1898.665161 * 0.0000000100 = 0.0000189867 loss
+2019-03-10 12:52:33,645 [INFO] unfolding 0, single step 113001
+2019-03-10 12:52:33,645 [INFO] Sum of grad norms of most recent batch: 0.067708
+2019-03-10 12:52:33,646 [INFO] ---------------------------------
+2019-03-10 12:52:57,549 [INFO] ---------------------------------
+2019-03-10 12:52:57,550 [INFO] Summary:
+2019-03-10 12:52:57,551 [INFO] Batch 114000, worst loss 0.010846 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 12:52:57,551 [INFO] Regularization: 1893.955811 * 0.0000000100 = 0.0000189396 loss
+2019-03-10 12:52:57,552 [INFO] unfolding 0, single step 114001
+2019-03-10 12:52:57,552 [INFO] Sum of grad norms of most recent batch: 0.036104
+2019-03-10 12:52:57,553 [INFO] ---------------------------------
+2019-03-10 12:53:21,190 [INFO] ---------------------------------
+2019-03-10 12:53:21,191 [INFO] Summary:
+2019-03-10 12:53:21,192 [INFO] Batch 115000, worst loss 0.018088 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 12:53:21,192 [INFO] Regularization: 1888.711304 * 0.0000000100 = 0.0000188871 loss
+2019-03-10 12:53:21,193 [INFO] unfolding 0, single step 115001
+2019-03-10 12:53:21,194 [INFO] Sum of grad norms of most recent batch: 0.023261
+2019-03-10 12:53:21,194 [INFO] ---------------------------------
+2019-03-10 12:53:45,307 [INFO] ---------------------------------
+2019-03-10 12:53:45,308 [INFO] Summary:
+2019-03-10 12:53:45,308 [INFO] Batch 116000, worst loss 0.017306 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 12:53:45,309 [INFO] Regularization: 1881.937622 * 0.0000000100 = 0.0000188194 loss
+2019-03-10 12:53:45,309 [INFO] unfolding 0, single step 116001
+2019-03-10 12:53:45,310 [INFO] Sum of grad norms of most recent batch: 0.053438
+2019-03-10 12:53:45,311 [INFO] ---------------------------------
+2019-03-10 12:54:09,113 [INFO] ---------------------------------
+2019-03-10 12:54:09,114 [INFO] Summary:
+2019-03-10 12:54:09,115 [INFO] Batch 117000, worst loss 0.017429 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 12:54:09,115 [INFO] Regularization: 1876.294312 * 0.0000000100 = 0.0000187629 loss
+2019-03-10 12:54:09,116 [INFO] unfolding 0, single step 117001
+2019-03-10 12:54:09,117 [INFO] Sum of grad norms of most recent batch: 0.020894
+2019-03-10 12:54:09,118 [INFO] ---------------------------------
+2019-03-10 12:54:32,820 [INFO] ---------------------------------
+2019-03-10 12:54:32,821 [INFO] Summary:
+2019-03-10 12:54:32,821 [INFO] Batch 118000, worst loss 0.014594 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 12:54:32,822 [INFO] Regularization: 1870.689819 * 0.0000000100 = 0.0000187069 loss
+2019-03-10 12:54:32,823 [INFO] unfolding 0, single step 118001
+2019-03-10 12:54:32,824 [INFO] Sum of grad norms of most recent batch: 0.025002
+2019-03-10 12:54:32,824 [INFO] ---------------------------------
+2019-03-10 12:54:56,878 [INFO] ---------------------------------
+2019-03-10 12:54:56,879 [INFO] Summary:
+2019-03-10 12:54:56,879 [INFO] Batch 119000, worst loss 0.004602 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 12:54:56,880 [INFO] Regularization: 1864.912842 * 0.0000000100 = 0.0000186491 loss
+2019-03-10 12:54:56,881 [INFO] unfolding 0, single step 119001
+2019-03-10 12:54:56,881 [INFO] Sum of grad norms of most recent batch: 0.021612
+2019-03-10 12:54:56,882 [INFO] ---------------------------------
+2019-03-10 12:55:20,581 [INFO] ---------------------------------
+2019-03-10 12:55:20,582 [INFO] Summary:
+2019-03-10 12:55:20,583 [INFO] Batch 120000, worst loss 0.014094 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000016 @est.-depth 3
+2019-03-10 12:55:20,583 [INFO] Regularization: 1860.066772 * 0.0000000100 = 0.0000186007 loss
+2019-03-10 12:55:20,584 [INFO] unfolding 0, single step 120001
+2019-03-10 12:55:20,584 [INFO] Sum of grad norms of most recent batch: 0.028228
+2019-03-10 12:55:20,585 [INFO] ---------------------------------
+2019-03-10 12:55:33,674 [INFO] ---------------------------------
+2019-03-10 12:55:33,679 [INFO] Evaluation:
+2019-03-10 12:55:33,679 [INFO] Batch 120000, worst loss 0.013791 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 12:55:33,680 [INFO] ---------------------------------
+2019-03-10 12:55:57,844 [INFO] ---------------------------------
+2019-03-10 12:55:57,845 [INFO] Summary:
+2019-03-10 12:55:57,846 [INFO] Batch 121000, worst loss 0.028948 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 12:55:57,846 [INFO] Regularization: 1855.023926 * 0.0000000100 = 0.0000185502 loss
+2019-03-10 12:55:57,847 [INFO] unfolding 0, single step 121001
+2019-03-10 12:55:57,848 [INFO] Sum of grad norms of most recent batch: 0.017865
+2019-03-10 12:55:57,848 [INFO] ---------------------------------
+2019-03-10 12:56:21,435 [INFO] ---------------------------------
+2019-03-10 12:56:21,436 [INFO] Summary:
+2019-03-10 12:56:21,442 [INFO] Batch 122000, worst loss 0.023350 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 12:56:21,444 [INFO] Regularization: 1851.727051 * 0.0000000100 = 0.0000185173 loss
+2019-03-10 12:56:21,444 [INFO] unfolding 0, single step 122001
+2019-03-10 12:56:21,445 [INFO] Sum of grad norms of most recent batch: 0.025424
+2019-03-10 12:56:21,446 [INFO] ---------------------------------
+2019-03-10 12:56:47,286 [INFO] ---------------------------------
+2019-03-10 12:56:47,287 [INFO] Summary:
+2019-03-10 12:56:47,288 [INFO] Batch 123000, worst loss 0.018673 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 12:56:47,288 [INFO] Regularization: 1848.757324 * 0.0000000100 = 0.0000184876 loss
+2019-03-10 12:56:47,289 [INFO] unfolding 0, single step 123001
+2019-03-10 12:56:47,289 [INFO] Sum of grad norms of most recent batch: 0.017744
+2019-03-10 12:56:47,290 [INFO] ---------------------------------
+2019-03-10 12:57:11,442 [INFO] ---------------------------------
+2019-03-10 12:57:11,443 [INFO] Summary:
+2019-03-10 12:57:11,446 [INFO] Batch 124000, worst loss 0.017907 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 12:57:11,447 [INFO] Regularization: 1846.790405 * 0.0000000100 = 0.0000184679 loss
+2019-03-10 12:57:11,447 [INFO] unfolding 0, single step 124001
+2019-03-10 12:57:11,448 [INFO] Sum of grad norms of most recent batch: 0.018352
+2019-03-10 12:57:11,449 [INFO] ---------------------------------
+2019-03-10 12:57:35,156 [INFO] ---------------------------------
+2019-03-10 12:57:35,157 [INFO] Summary:
+2019-03-10 12:57:35,158 [INFO] Batch 125000, worst loss 0.016797 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 12:57:35,158 [INFO] Regularization: 1844.639404 * 0.0000000100 = 0.0000184464 loss
+2019-03-10 12:57:35,159 [INFO] unfolding 0, single step 125001
+2019-03-10 12:57:35,159 [INFO] Sum of grad norms of most recent batch: 0.033937
+2019-03-10 12:57:35,160 [INFO] ---------------------------------
+2019-03-10 12:57:59,289 [INFO] ---------------------------------
+2019-03-10 12:57:59,290 [INFO] Summary:
+2019-03-10 12:57:59,291 [INFO] Batch 126000, worst loss 0.016509 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 12:57:59,292 [INFO] Regularization: 1842.217896 * 0.0000000100 = 0.0000184222 loss
+2019-03-10 12:57:59,292 [INFO] unfolding 0, single step 126001
+2019-03-10 12:57:59,293 [INFO] Sum of grad norms of most recent batch: 0.019337
+2019-03-10 12:57:59,294 [INFO] ---------------------------------
+2019-03-10 12:58:23,892 [INFO] ---------------------------------
+2019-03-10 12:58:23,893 [INFO] Summary:
+2019-03-10 12:58:23,894 [INFO] Batch 127000, worst loss 0.014293 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 12:58:23,894 [INFO] Regularization: 1839.569946 * 0.0000000100 = 0.0000183957 loss
+2019-03-10 12:58:23,895 [INFO] unfolding 0, single step 127001
+2019-03-10 12:58:23,896 [INFO] Sum of grad norms of most recent batch: 0.013434
+2019-03-10 12:58:23,897 [INFO] ---------------------------------
+2019-03-10 12:58:48,071 [INFO] ---------------------------------
+2019-03-10 12:58:48,072 [INFO] Summary:
+2019-03-10 12:58:48,072 [INFO] Batch 128000, worst loss 0.046421 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 12:58:48,073 [INFO] Regularization: 1837.172729 * 0.0000000100 = 0.0000183717 loss
+2019-03-10 12:58:48,074 [INFO] unfolding 0, single step 128001
+2019-03-10 12:58:48,075 [INFO] Sum of grad norms of most recent batch: 0.079071
+2019-03-10 12:58:48,076 [INFO] ---------------------------------
+2019-03-10 12:59:12,042 [INFO] ---------------------------------
+2019-03-10 12:59:12,043 [INFO] Summary:
+2019-03-10 12:59:12,043 [INFO] Batch 129000, worst loss 0.009584 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 12:59:12,044 [INFO] Regularization: 1834.731201 * 0.0000000100 = 0.0000183473 loss
+2019-03-10 12:59:12,044 [INFO] unfolding 0, single step 129001
+2019-03-10 12:59:12,045 [INFO] Sum of grad norms of most recent batch: 0.026705
+2019-03-10 12:59:12,046 [INFO] ---------------------------------
+2019-03-10 12:59:35,779 [INFO] ---------------------------------
+2019-03-10 12:59:35,780 [INFO] Summary:
+2019-03-10 12:59:35,781 [INFO] Batch 130000, worst loss 0.018017 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000008 @est.-depth 3
+2019-03-10 12:59:35,781 [INFO] Regularization: 1832.616455 * 0.0000000100 = 0.0000183262 loss
+2019-03-10 12:59:35,782 [INFO] unfolding 0, single step 130001
+2019-03-10 12:59:35,783 [INFO] Sum of grad norms of most recent batch: 0.016764
+2019-03-10 12:59:35,783 [INFO] ---------------------------------
+2019-03-10 12:59:48,889 [INFO] ---------------------------------
+2019-03-10 12:59:48,890 [INFO] Evaluation:
+2019-03-10 12:59:48,890 [INFO] Batch 130000, worst loss 0.024342 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 12:59:48,893 [INFO] ---------------------------------
+2019-03-10 13:00:12,809 [INFO] ---------------------------------
+2019-03-10 13:00:12,810 [INFO] Summary:
+2019-03-10 13:00:12,811 [INFO] Batch 131000, worst loss 0.024457 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 13:00:12,812 [INFO] Regularization: 1830.321533 * 0.0000000100 = 0.0000183032 loss
+2019-03-10 13:00:12,812 [INFO] unfolding 0, single step 131001
+2019-03-10 13:00:12,813 [INFO] Sum of grad norms of most recent batch: 0.011080
+2019-03-10 13:00:12,814 [INFO] ---------------------------------
+2019-03-10 13:00:36,724 [INFO] ---------------------------------
+2019-03-10 13:00:36,725 [INFO] Summary:
+2019-03-10 13:00:36,726 [INFO] Batch 132000, worst loss 0.023352 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 13:00:36,726 [INFO] Regularization: 1828.624023 * 0.0000000100 = 0.0000182862 loss
+2019-03-10 13:00:36,727 [INFO] unfolding 0, single step 132001
+2019-03-10 13:00:36,728 [INFO] Sum of grad norms of most recent batch: 0.008979
+2019-03-10 13:00:36,729 [INFO] ---------------------------------
+2019-03-10 13:01:00,697 [INFO] ---------------------------------
+2019-03-10 13:01:00,698 [INFO] Summary:
+2019-03-10 13:01:00,699 [INFO] Batch 133000, worst loss 0.009977 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 13:01:00,700 [INFO] Regularization: 1827.185791 * 0.0000000100 = 0.0000182719 loss
+2019-03-10 13:01:00,700 [INFO] unfolding 0, single step 133001
+2019-03-10 13:01:00,701 [INFO] Sum of grad norms of most recent batch: 0.025058
+2019-03-10 13:01:00,702 [INFO] ---------------------------------
+2019-03-10 13:01:24,755 [INFO] ---------------------------------
+2019-03-10 13:01:24,756 [INFO] Summary:
+2019-03-10 13:01:24,756 [INFO] Batch 134000, worst loss 0.016980 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 13:01:24,757 [INFO] Regularization: 1825.768677 * 0.0000000100 = 0.0000182577 loss
+2019-03-10 13:01:24,757 [INFO] unfolding 0, single step 134001
+2019-03-10 13:01:24,758 [INFO] Sum of grad norms of most recent batch: 0.011059
+2019-03-10 13:01:24,759 [INFO] ---------------------------------
+2019-03-10 13:01:48,456 [INFO] ---------------------------------
+2019-03-10 13:01:48,457 [INFO] Summary:
+2019-03-10 13:01:48,458 [INFO] Batch 135000, worst loss 0.031985 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 13:01:48,458 [INFO] Regularization: 1824.158081 * 0.0000000100 = 0.0000182416 loss
+2019-03-10 13:01:48,459 [INFO] unfolding 0, single step 135001
+2019-03-10 13:01:48,459 [INFO] Sum of grad norms of most recent batch: 0.016343
+2019-03-10 13:01:48,462 [INFO] ---------------------------------
+2019-03-10 13:02:12,536 [INFO] ---------------------------------
+2019-03-10 13:02:12,538 [INFO] Summary:
+2019-03-10 13:02:12,538 [INFO] Batch 136000, worst loss 0.031908 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 13:02:12,539 [INFO] Regularization: 1822.579224 * 0.0000000100 = 0.0000182258 loss
+2019-03-10 13:02:12,539 [INFO] unfolding 0, single step 136001
+2019-03-10 13:02:12,540 [INFO] Sum of grad norms of most recent batch: 3.407707
+2019-03-10 13:02:12,541 [INFO] ---------------------------------
+2019-03-10 13:02:36,338 [INFO] ---------------------------------
+2019-03-10 13:02:36,339 [INFO] Summary:
+2019-03-10 13:02:36,339 [INFO] Batch 137000, worst loss 0.031587 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 13:02:36,340 [INFO] Regularization: 1821.625000 * 0.0000000100 = 0.0000182162 loss
+2019-03-10 13:02:36,340 [INFO] unfolding 0, single step 137001
+2019-03-10 13:02:36,341 [INFO] Sum of grad norms of most recent batch: 0.009707
+2019-03-10 13:02:36,341 [INFO] ---------------------------------
+2019-03-10 13:02:59,885 [INFO] ---------------------------------
+2019-03-10 13:02:59,886 [INFO] Summary:
+2019-03-10 13:02:59,887 [INFO] Batch 138000, worst loss 0.009689 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 13:02:59,887 [INFO] Regularization: 1820.123291 * 0.0000000100 = 0.0000182012 loss
+2019-03-10 13:02:59,888 [INFO] unfolding 0, single step 138001
+2019-03-10 13:02:59,889 [INFO] Sum of grad norms of most recent batch: 0.011840
+2019-03-10 13:02:59,890 [INFO] ---------------------------------
+2019-03-10 13:03:23,591 [INFO] ---------------------------------
+2019-03-10 13:03:23,592 [INFO] Summary:
+2019-03-10 13:03:23,593 [INFO] Batch 139000, worst loss 0.010315 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 13:03:23,594 [INFO] Regularization: 1818.617798 * 0.0000000100 = 0.0000181862 loss
+2019-03-10 13:03:23,594 [INFO] unfolding 0, single step 139001
+2019-03-10 13:03:23,595 [INFO] Sum of grad norms of most recent batch: 0.022195
+2019-03-10 13:03:23,596 [INFO] ---------------------------------
+2019-03-10 13:03:47,173 [INFO] ---------------------------------
+2019-03-10 13:03:47,174 [INFO] Summary:
+2019-03-10 13:03:47,174 [INFO] Batch 140000, worst loss 0.012483 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000004 @est.-depth 3
+2019-03-10 13:03:47,175 [INFO] Regularization: 1817.321045 * 0.0000000100 = 0.0000181732 loss
+2019-03-10 13:03:47,176 [INFO] unfolding 0, single step 140001
+2019-03-10 13:03:47,177 [INFO] Sum of grad norms of most recent batch: 0.018180
+2019-03-10 13:03:47,178 [INFO] ---------------------------------
+2019-03-10 13:04:00,329 [INFO] ---------------------------------
+2019-03-10 13:04:00,330 [INFO] Evaluation:
+2019-03-10 13:04:00,331 [INFO] Batch 140000, worst loss 0.011785 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 13:04:00,331 [INFO] ---------------------------------
+2019-03-10 13:04:24,526 [INFO] ---------------------------------
+2019-03-10 13:04:24,527 [INFO] Summary:
+2019-03-10 13:04:24,528 [INFO] Batch 141000, worst loss 0.024860 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 13:04:24,529 [INFO] Regularization: 1816.830078 * 0.0000000100 = 0.0000181683 loss
+2019-03-10 13:04:24,529 [INFO] unfolding 0, single step 141001
+2019-03-10 13:04:24,530 [INFO] Sum of grad norms of most recent batch: 0.021848
+2019-03-10 13:04:24,531 [INFO] ---------------------------------
+2019-03-10 13:04:48,480 [INFO] ---------------------------------
+2019-03-10 13:04:48,481 [INFO] Summary:
+2019-03-10 13:04:48,481 [INFO] Batch 142000, worst loss 0.016635 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 13:04:48,482 [INFO] Regularization: 1816.052368 * 0.0000000100 = 0.0000181605 loss
+2019-03-10 13:04:48,482 [INFO] unfolding 0, single step 142001
+2019-03-10 13:04:48,483 [INFO] Sum of grad norms of most recent batch: 0.010761
+2019-03-10 13:04:48,483 [INFO] ---------------------------------
+2019-03-10 13:05:12,668 [INFO] ---------------------------------
+2019-03-10 13:05:12,669 [INFO] Summary:
+2019-03-10 13:05:12,670 [INFO] Batch 143000, worst loss 0.025652 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 13:05:12,671 [INFO] Regularization: 1815.324463 * 0.0000000100 = 0.0000181532 loss
+2019-03-10 13:05:12,671 [INFO] unfolding 0, single step 143001
+2019-03-10 13:05:12,672 [INFO] Sum of grad norms of most recent batch: 0.010654
+2019-03-10 13:05:12,673 [INFO] ---------------------------------
+2019-03-10 13:05:36,627 [INFO] ---------------------------------
+2019-03-10 13:05:36,629 [INFO] Summary:
+2019-03-10 13:05:36,629 [INFO] Batch 144000, worst loss 0.025575 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 13:05:36,630 [INFO] Regularization: 1814.590576 * 0.0000000100 = 0.0000181459 loss
+2019-03-10 13:05:36,630 [INFO] unfolding 0, single step 144001
+2019-03-10 13:05:36,631 [INFO] Sum of grad norms of most recent batch: 0.006541
+2019-03-10 13:05:36,631 [INFO] ---------------------------------
+2019-03-10 13:06:00,609 [INFO] ---------------------------------
+2019-03-10 13:06:00,610 [INFO] Summary:
+2019-03-10 13:06:00,611 [INFO] Batch 145000, worst loss 0.015194 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 13:06:00,611 [INFO] Regularization: 1813.876831 * 0.0000000100 = 0.0000181388 loss
+2019-03-10 13:06:00,612 [INFO] unfolding 0, single step 145001
+2019-03-10 13:06:00,613 [INFO] Sum of grad norms of most recent batch: 0.006774
+2019-03-10 13:06:00,614 [INFO] ---------------------------------
+2019-03-10 13:06:24,541 [INFO] ---------------------------------
+2019-03-10 13:06:24,542 [INFO] Summary:
+2019-03-10 13:06:24,543 [INFO] Batch 146000, worst loss 0.016452 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 13:06:24,544 [INFO] Regularization: 1813.673950 * 0.0000000100 = 0.0000181367 loss
+2019-03-10 13:06:24,544 [INFO] unfolding 0, single step 146001
+2019-03-10 13:06:24,545 [INFO] Sum of grad norms of most recent batch: 0.026243
+2019-03-10 13:06:24,546 [INFO] ---------------------------------
+2019-03-10 13:06:48,350 [INFO] ---------------------------------
+2019-03-10 13:06:48,351 [INFO] Summary:
+2019-03-10 13:06:48,352 [INFO] Batch 147000, worst loss 0.012595 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 13:06:48,353 [INFO] Regularization: 1813.116089 * 0.0000000100 = 0.0000181312 loss
+2019-03-10 13:06:48,353 [INFO] unfolding 0, single step 147001
+2019-03-10 13:06:48,354 [INFO] Sum of grad norms of most recent batch: 0.013400
+2019-03-10 13:06:48,355 [INFO] ---------------------------------
+2019-03-10 13:07:12,372 [INFO] ---------------------------------
+2019-03-10 13:07:12,373 [INFO] Summary:
+2019-03-10 13:07:12,373 [INFO] Batch 148000, worst loss 0.011766 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 13:07:12,374 [INFO] Regularization: 1812.447388 * 0.0000000100 = 0.0000181245 loss
+2019-03-10 13:07:12,375 [INFO] unfolding 0, single step 148001
+2019-03-10 13:07:12,376 [INFO] Sum of grad norms of most recent batch: 0.022956
+2019-03-10 13:07:12,377 [INFO] ---------------------------------
+2019-03-10 13:07:36,125 [INFO] ---------------------------------
+2019-03-10 13:07:36,126 [INFO] Summary:
+2019-03-10 13:07:36,126 [INFO] Batch 149000, worst loss 0.036615 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 13:07:36,127 [INFO] Regularization: 1811.889038 * 0.0000000100 = 0.0000181189 loss
+2019-03-10 13:07:36,128 [INFO] unfolding 0, single step 149001
+2019-03-10 13:07:36,128 [INFO] Sum of grad norms of most recent batch: 0.011795
+2019-03-10 13:07:36,129 [INFO] ---------------------------------
+2019-03-10 13:08:00,188 [INFO] ---------------------------------
+2019-03-10 13:08:00,189 [INFO] Summary:
+2019-03-10 13:08:00,189 [INFO] Batch 150000, worst loss 0.010769 of 1000 batches (incl. reg.) (unfolding: 0), learning rate 0.000002 @est.-depth 3
+2019-03-10 13:08:00,190 [INFO] Regularization: 1811.484497 * 0.0000000100 = 0.0000181148 loss
+2019-03-10 13:08:00,190 [INFO] unfolding 0, single step 150001
+2019-03-10 13:08:00,191 [INFO] Sum of grad norms of most recent batch: 0.009654
+2019-03-10 13:08:00,192 [INFO] ---------------------------------
+2019-03-10 13:08:13,482 [INFO] ---------------------------------
+2019-03-10 13:08:13,483 [INFO] Evaluation:
+2019-03-10 13:08:13,484 [INFO] Batch 150000, worst loss 0.023298 of 1000 batches (without reg.) @est.-depth 3
+2019-03-10 13:08:13,485 [INFO] ---------------------------------
+2019-03-10 13:08:13,486 [INFO] Finished training, saved to file transition/1552212199/1552219693_1_transition_final.pth
