@@ -1,6 +1,6 @@
 # State-based load profile generation for modeling energetic flexibility
 
-This is the official repository for the paper _State-based load profile generation for modeling energetic flexibility_ published in TBD ...
+This is the official repository for the paper [State-based load profile generation for modeling energetic flexibility](https://doi.org/10.1186/s42162-019-0077-z)
 
 
 |Abbreviation|Meaning|
